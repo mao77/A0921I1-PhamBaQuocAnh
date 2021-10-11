@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Tạo form lấy survey khách hàng</title>
+</head>
+<body>
+    <form action="">
+        <h3>Market Research Survey</h3>
+        <p>Please take a pew moments to complete this satisfaction survey</p>
+        <hr>
+        <h4>What is your age range</h4>
+        <select style="width:500px">
+            <option>18-24</option>
+        </select>
+        <h4>What is your yearly income range</h4>
+        <select style="width:500px">
+            <option >$0-$25000</option>
+        </select>
+        <h4>Gender</h4>
+        <table>
+            <tr>
+                <td><input type="radio" name="gender"></td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender"></td>
+                <td>Female</td>
+            </tr>
+        </table>
+
+        <h4>Which of the following products have yours purchased in the last 2 months.Please check all that apply</h4>
+        <table>
+            <tr>
+                <td><input type="checkbox" name="product1"></td>
+                <td>Product 1</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="product2"></td>
+                <td>Product 2</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="product3"></td>
+                <td>Product 3</td>
+            </tr>
+        </table>
+        <h4>What would ypu pay for the new product?</h4>
+        <table>
+            <tr>
+                <td>$</td>
+                <td ><input type="text" size="8"></td>
+                <td>.</td>
+                <td><input type="text" size="1"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Dollars</td>
+                <td></td>
+                <td>Cents</td>
+            </tr>
+        </table>
+        <h4>What features would you like to see in the new product.</h4>
+        <input type="text">
+        <h4>Please rate your level of argreement with the following statements.</h4>
+        <form>
+            <table border="solid">
+                <tr style="background-color:#7474fa">
+                    <td></td>
+                    <td>Strongly Disagree</td>
+                    <td>Disagree</td>
+                    <td>Agree</td>
+                    <td>Strongly Agree</td>
+                </tr>
+                <tr>
+                    <th>Our Products are priced of fairly</th>
+                    <td style="text-align: center"><input type="radio"><br>1</td>
+                    <td style="text-align: center"><input type="radio"><br>2</td>
+                    <td style="text-align: center"><input type="radio"><br>3</td>
+                    <td style="text-align: center"><input type="radio"><br>4</td>
+
+
+                </tr>
+                <tr style="background-color: #7474fa">
+                    <th>Our Products are highly quality</th>
+                    <td style="text-align: center"><input type="radio"><br>1</td>
+                    <td style="text-align: center"><input type="radio"><br>2</td>
+                    <td style="text-align: center"><input type="radio"><br>3</td>
+                    <td style="text-align: center"><input type="radio"><br>4</td>
+
+
+                </tr>
+                <tr>
+                    <th>You would recommend our product to a friend or coworker.</th>
+                    <td style="text-align: center"><input type="radio"><br>1</td>
+                    <td style="text-align: center"><input type="radio"><br>2</td>
+                    <td style="text-align: center"><input type="radio"><br>3</td>
+                    <td style="text-align: center"><input type="radio"><br>4</td>
+
+
+                </tr>
+            </table>
+            <input type="submit" value="SUBMIT">
+        </form>
+
+    </form>
+
+</body>
+</html>
