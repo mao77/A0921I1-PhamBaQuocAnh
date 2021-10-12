@@ -1,0 +1,95 @@
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+#div1 {
+    width: 500px;
+    height: 500px;
+    background: yellow;
+}
+#banco td {
+    width: 50px;
+    height: 50px;
+}
+.a:nth-child(odd) {
+    background: white;
+}
+.a:nth-child(even) {
+    background: black;
+}
+.b:nth-child(odd) {
+    background: black;
+}
+.b:nth-child(even) {
+    background: white;
+}
+.c:nth-child(odd) {
+    background: white;
+}
+.c:nth-child(even) {
+    background: black;
+}
+.d:nth-child(odd) {
+    background: black;
+}
+.d:nth-child(even) {
+    background: white;
+}
+.e:nth-child(odd) {
+    background: white;
+}
+.e:nth-child(even) {
+    background: black;
+}
+.f:nth-child(odd) {
+    background: black;
+}
+.f:nth-child(even) {
+    background: white;
+}
+.g:nth-child(odd) {
+    background: white;
+}
+.g:nth-child(even) {
+    background: black;
+}
+.h:nth-child(odd) {
+    background: black;
+}
+.h:nth-child(even) {
+    background: white;
+}
+.th1,.th2,.th3,.th4,.th5,.th6,.th7 {
+    color: white;
+}
+.th2,.th3,.th4,.th5,.th6 {
+    background-color: orange;
+}
+.th1 {
+    background-color: red;
+}
+.th7 {
+    background-color: blue;
+}
+.td1,.td2,.td3,.td4,.td5,.td6,.td7 {
+    text-align: center;
+}
+.td1 {
+    color: red;
+}
+.td7 {
+    color: blue;
+}
+
+#tr3 td {
+    border: 1px solid black;
+}
+#tr4 td {
+    border: 1px solid black;
+}#tr5 td {
+     border: 1px solid black;
+ }
+#tr6 td {
+    border: 1px solid black;
+}
+
