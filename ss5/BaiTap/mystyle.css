@@ -80,16 +80,28 @@ sub {
 .td7 {
     color: blue;
 }
-
-#tr3 td {
+#table2 {
+    border-collapse: collapse;
+}
+#table2 th,td{
     border: 1px solid black;
 }
+/*#tr1 th {*/
+/*    border: none;*/
+/*}*/
+#tr2 td {
+    border: none;
+}
+#tr3 td {
+    text-align: center;
+}
 #tr4 td {
-    border: 1px solid black;
-}#tr5 td {
-     border: 1px solid black;
- }
+    text-align: center;
+}
+#tr5 td {
+    text-align: center;
+}
 #tr6 td {
-    border: 1px solid black;
+    text-align: center;
 }
 
