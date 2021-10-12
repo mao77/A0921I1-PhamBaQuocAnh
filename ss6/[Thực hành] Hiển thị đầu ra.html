@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Hiển thị đầu ra</title>
+</head>
+<body>
+    <button type="button" onclick="dungalert();">Hiển thị kết quả s.dung hàm alert</button>
+    <script>
+        function dungalert() {
+            alert('xin chao');
+        }
+
+    </script>
+   <div id="divMessage"></div>
+       <button type="button" onclick="showMessageHTML();">innerHTML</button>
+       <script>
+          function showMessageHTML() {
+               document.getElementById('divMessage').innerHTML='xin chao';
+           }
+       </script>
+    <br><button type="button" onclick="documentWrite();">Document Write</button>
+    <script>
+        function documentWrite(){
+            document.write('Xin chào!');
+        }
+    </script>
+    <br><button type="button" onclick="consoleLog();">Console Log</button>
+    <script>
+        function consoleLog(){
+            console.log('Xin chào!');
+        }
+    </script>
+
+
+
+</body>
+</html>
