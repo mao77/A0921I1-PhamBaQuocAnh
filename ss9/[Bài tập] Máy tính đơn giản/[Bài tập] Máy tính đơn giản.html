@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Máy tính đơn giản</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<form name="calc">
+    <input id="result" type="button" name="result">
+    <br>
+    <br>
+    <input class="btn" type="button" value="1" onclick="calc.result.value+='1'">
+    <input class="btn" type="button" value="2" onclick="calc.result.value+='2'">
+    <input class="btn" type="button" value="3" onclick="calc.result.value+='3'">
+    <input class="btn" type="button" value="+" onclick="calc.result.value+='+'">
+
+    <br>
+    <input type="button" class="btn" value="4" onclick="calc.result.value+='4'">
+    <input type="button" class="btn" value="5" onclick="calc.result.value+='5'">
+    <input type="button" class="btn" value="6" onclick="calc.result.value+='6'">
+    <input type="button" class="btn" value="-" onclick="calc.result.value+='-'">
+    <br>
+    <input type="button" class="btn" value="7" onclick="calc.result.value+='7'">
+    <input type="button" class="btn" value="8" onclick="calc.result.value+='8'">
+    <input type="button" class="btn" value="9" onclick="calc.result.value+='9'">
+    <input type="button" class="btn" value="x" onclick="calc.result.value+='x'">
+    <br>
+    <input type="button" class="btn" value="C" onclick="calc.result.value =''">
+    <input type="button" class="btn" value="0" onclick="calc.result.value+='0'">
+    <input class="btn" type="button" value="=" onclick="calc.result.value=eval(calc.result.value)">
+    <input type="button" class="btn" value="/" onclick="calc.result.value+='/'">
+
+</form>
+</body>
+</html>

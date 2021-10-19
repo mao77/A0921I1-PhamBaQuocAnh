@@ -1,26 +1,22 @@
+let num1 = document.getElementById('num1');
+let num2 = document.getElementById('num2');
+
 function add() {
-    let num1 = parseFloat(document.getElementById('num1').value);
-    let num2 = parseFloat(document.getElementById('num2').value);
-    let add = (num1 + num2).toFixed(2);
-    document.write(num1 +'+' + num2 + '=' + add);
+    let result = parseInt(num1.value) + parseInt(num2.value);
+    document.getElementById('result').innerText = num1.value + '+' + num2.value + '=' + result
 }
+
 function sub() {
-    let num1 = parseFloat(document.getElementById('num1').value);
-    let num2 = parseFloat(document.getElementById('num2').value);
-    let sub = (num1 - num2).toFixed(2);
-    document.write(num1 + '-' + num2 + '=' + sub);
-
+    let result = parseInt(num1.value) - parseInt(num2.value);
+    document.getElementById('result').innerText = num1.value + '-' + num2.value + '=' + result;
 }
+
 function multi() {
-    let num1 = parseFloat(document.getElementById('num1').value);
-    let num2 = parseFloat(document.getElementById('num2').value);
-    let multi = (num1 * num2).toFixed(2);
-    document.write(num1 + '*' + num2 + '=' + multi);
-
+    let result = parseInt(num1.value) * parseInt(num2.value);
+    document.getElementById('result').innerText = num1.value + '*' + num2.value + '=' + result;
 }
+
 function divi() {
-    let num1 =parseFloat(document.getElementById('num1').value);
-    let num2 =parseFloat(document.getElementById('num2').value);
-    let divi = (num1 / num2).toFixed(2);
-    document.write(num1 + '/' + num2 + '=' + divi);
+    let result = parseInt(num1.value) / parseInt(num2.value);
+    document.getElementById('result').innerText=num1.value+'/'+num2.value+'='+result;
 }
