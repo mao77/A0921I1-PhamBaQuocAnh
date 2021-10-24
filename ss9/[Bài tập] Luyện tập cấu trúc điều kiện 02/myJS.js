@@ -150,5 +150,10 @@ function doBai11() {
 }
 
 function doBai12() {
-
+    let i = parseFloat(document.getElementById('tienVay').value);
+    let j = parseInt(document.getElementById('thoiGianVay').value);
+    for (let a = 1; a<=j;a++) {
+        i+=(i*0.01);
+    }
+    document.getElementById('resultBai12').value = 'so tien ban phai tra sau ' + j + ' thang la '+ i + ' vnd';
 }
