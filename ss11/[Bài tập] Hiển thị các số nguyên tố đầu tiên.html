@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Hiển thị các số nguyên tố đầu tiên</title>
+</head>
+<body>
+<script>
+    let result = '';
+    let num = 20;
+    let count = 0;
+    let m = 2;
+    while (count < num) {
+        let mark = 1;
+        for (let i = 2; i < Math.sqrt(m); i++) {
+            if (m % i == 0) {
+                mark = 0;
+                break;
+            }
+        }
+        if (mark == 1) {
+            count++;
+            result += count + '.' + m + '<br>';
+        }
+        m++;
+    }
+    document.write(result);
+
+
+</script>
+</body>
+</html>

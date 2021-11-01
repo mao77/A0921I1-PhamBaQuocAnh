@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Sử dụng vòng lặp for</title>
+</head>
+<body>
+   <h3>Bài 1:</h3>
+    <p id="demo"></p>
+   <script>
+       let text = '';
+       for (let i = 1; i < 6; i++) {
+           text += 'The Number Is ' + i + '<br>';
+           document.getElementById('demo').innerHTML = text;
+       }
+   </script>
+    <h3>Bài 2:</h3>
+   <input id="num" type="text" placeholder="nhap vao 1 so bat ki lon hon 0" style="width: 300px">
+   <input type="button" value="OK" onclick="doBai2()">
+   <br>
+   <br>
+   <input id="resultBai2" type="button" style="height: 30px; width: 350px">
+   <script>
+       function doBai2() {
+            let num = document.getElementById('num').value;
+            let total = 0;
+            let i =0;
+            for (;i<=num;i++) {
+                total += i;
+            }
+            document.getElementById('resultBai2').value = 'Tong = ' +  total;
+       }
+   </script>
+</body>
+</html>

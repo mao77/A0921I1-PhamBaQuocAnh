@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<p id="result"></p>
+<script>
+    let num = prompt("nhap vao so ban muon tinh giai thua");
+    let result = 1;
+    for (let i = num; i >= 1; i--) {
+        result *= i;
+    }
+    document.getElementById('result').innerText = '!'+ num+' = ' +result;
+</script>
+</body>
+</html>

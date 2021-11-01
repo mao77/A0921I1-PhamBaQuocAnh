@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8</title>
+</head>
+<body>
+<input type="button" value="PLAY" onclick="gameChonSo()">
+<input type="button" value="RE-PLAY" onclick="gameChonSo()">
+<script>
+    function gameChonSo() {
+        let a = parseInt(prompt('nhap vao khoang cach min max'));
+        let b = parseInt(prompt('nhap vao khoang cach min max'));
+        let min;
+        let max;
+        if (a > b) {
+            min = b;
+            max = a;
+        } else if (a < b) {
+            min = a;
+            max = b;
+        }
+        let random = Math.floor(Math.random() * (max - min + 1)) + min;
+        console.log(random);
+        for (let count = 1; count <= 3; count++) {
+            let c = parseInt(prompt('nhap vao so ban chon trong khoang' + min + '------>' + max));
+            if (c === random) {
+                alert('chuc mung ban da chon dung. Random = ' + random);
+                break;
+            } else if (c < random) {
+                alert('ban da chon sai' + c + '< random');
+
+            } else {
+                alert('ban da chon sai' + c + '>random');
+            }
+        }
+    }
+
+</script>
+</body>
+</html>

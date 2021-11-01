@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 4</title>
+</head>
+<body>
+<p id="string"></p>
+<script>
+    let n = prompt('nhap chieu cao hcn');
+    let m = prompt('nhap chieu dai hcn');
+    let string = "";
+    for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= m; j++) {
+            if (i == 1 || i == n || j == 1 || j == m) {
+                string += "*"
+            }else {
+                string += "&ensp;";
+            }
+        }
+        string += '<br>';
+    }
+    document.getElementById('string').innerHTML = string;
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<p id="string"></p>
+
+<script>
+    let num = prompt('ban muon in ra bao nhieu so fibonacci');
+
+    let a = 1;
+    let b = 1;
+    let string = '1<br>1<br>';
+    for (let count = 2; count <=num; count++) {
+        let c = a + b;
+        string += c+'<br>';
+        a = b;
+        b = c;
+    }
+    document.getElementById('string').innerHTML = string;
+
+</script>
+</body>
+</html>

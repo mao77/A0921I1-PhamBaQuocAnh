@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<table border="1" id="multiplication">
+    ​
+</table>
+​
+<script>
+    let result = '';
+    for (let i = 1; i <= 9; i++) {
+        result += '<tr>\n';
+        for (let j =2; j <=9; j++) {
+            result += '<td>' + i + 'x' + j + '=' + i*j + '<td>';
+        }
+        result += '</tr>';
+    }
+    document.getElementById('multiplication').innerHTML = result;
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

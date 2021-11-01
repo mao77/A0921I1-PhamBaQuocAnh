@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<p id="result"></p>
+<script>
+    let money = parseFloat(prompt("nhap so tien can vay"));
+    let month = parseFloat(prompt("nhap so thang can vay"));
+
+    for (let i = 1; i <= month; i++) {
+        money += (money*0.01);
+    }
+    document.getElementById('result').innerText = 'so tien ban phai tra sau ' + month + ' thang la: ' + money.toFixed(0)+' vnd';
+</script>
+</body>
+</html>
