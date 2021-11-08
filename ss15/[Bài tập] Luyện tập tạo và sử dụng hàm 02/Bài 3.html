@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<input type="text" id="num" placeholder="nhap vao 1 so">
+<input type="button" value="Tinh Giai Thua" onclick="giaiThua(parseInt(document.getElementById('num').value))">
+<p id="result"></p>
+<script>
+    function giaiThua(num) {
+        let result = 1;
+        for (let i = 1; i <= num; i++){
+            result *= i;
+        }
+        document.getElementById('result').innerHTML = '('+num+')! = '+result;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<input type="text" id="input">
+<input type="button" value="OK" onclick="add_element_to_array()">
+<input type="button" value="SHOW ARRAY" onclick="document.writeln(arr)">
+<br>
+<h4>nhập vào số nguyên V</h4>
+<input type="text" id="numV">
+<input type="button" value="OK" onclick="checkNumV()">
+<p id="result"></p>
+<script>
+    let arr = [];
+    function add_element_to_array() {
+        arr.push(document.getElementById('input').value);
+    }
+    function checkNumV() {
+        let numV = document.getElementById('numV').value;
+        if (arr.includes(numV)) {
+            document.getElementById('result').innerText = '"V is in the array';
+        }else {
+            document.getElementById('result').innerText ='V is not in the array';
+        }
+    }
+</script>
+</body>
+</html>

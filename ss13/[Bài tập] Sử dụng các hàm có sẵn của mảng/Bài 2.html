@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+    const num = window.prompt();
+    const str = num.toString();
+    const result = [];
+
+    for (let x = 0; x < str.length; x++) {
+        if ((str[x] % 2 === 0) && (str[x+1] % 2 === 0)) {
+            result.push(str[x],'-');
+        } else {
+            result.push(str[x]);
+        }
+    }
+    console.log(result.join(''));
+
+</script>
+</body>
+</html>

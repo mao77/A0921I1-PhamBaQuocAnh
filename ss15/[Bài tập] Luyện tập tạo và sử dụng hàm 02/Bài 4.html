@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<input type="text" id="input" placeholder="input anthing here">
+<input type="button" value="OK" onclick="check()">
+<p id="result"></p>
+<script>
+    function check() {
+        let result = typeof document.getElementById('input').value;
+        if (result == 'number'){
+           return true;
+        }else {
+            return false;
+        }
+    }
+</script>
+</body>
+</html>

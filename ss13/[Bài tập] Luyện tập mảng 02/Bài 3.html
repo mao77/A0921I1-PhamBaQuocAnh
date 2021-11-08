@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let arr = [1,2,3,'a','b','c','d',-1,-2];
+
+    let count = check(arr);
+    function check() {
+        let count = 0;
+       for (let i =0; i < arr.length; i++) {
+           if ((typeof arr[i]) == 'number'){
+               count ++;
+           }
+       }
+       return count;
+    }
+    document.writeln('mang co ' + count + ' phan tu so');
+</script>
+</body>
+</html>

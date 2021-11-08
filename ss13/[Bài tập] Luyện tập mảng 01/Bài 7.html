@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<h4>Nhập vào phần tử V:</h4>
+<input type="text" id="numV" placeholder="nhập vào phần tử V" >
+<input type="button" value="OK" onclick="check()">
+<p id="result"></p>
+<script>
+    let arr = [1,5,10,20,25,100,30,55,41,39];
+function check() {
+    let numV = document.getElementById('numV').value;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == numV) {
+           arr.splice(i,1);
+        }
+    }
+    document.getElementById('result').innerHTML = arr;
+     }
+</script>
+</body>
+</html>

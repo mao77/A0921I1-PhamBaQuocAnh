@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+    let arr = [-1,0,-4,5,101,20,89,71,-100,99];
+    let max = [arr[0],arr.indexOf(arr[0])];
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > max[0]) {
+            max = [arr[i],arr.indexOf(arr[i])];
+        }
+    }
+    document.writeln('phần tử lớn nhất trong mảng là ' + max[0] + ' , vị trí ' + parseInt(max[1]+1));
+
+</script>
+</body>
+</html>

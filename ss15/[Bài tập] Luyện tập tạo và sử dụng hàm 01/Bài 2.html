@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<input type="text" id="num" placeholder="input a number">
+<input type="button" value="OK" onclick="plus(num)">
+<p id="result"></p>
+
+
+<script>
+
+    function plus(num) {
+        var num = parseInt(document.getElementById('num').value);
+        num += 1;
+        document.getElementById('result').innerHTML = num;
+    }
+</script>
+</body>
+</html>

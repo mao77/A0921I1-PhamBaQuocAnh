@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<input type="text" id="numa" placeholder="nhap vao so a">
+<input type="text" id="numb" placeholder="nhap vao so b">
+<input type="text" id="numc" placeholder="nhap vao so c">
+<br>
+<input type="button" value="OK" onclick="check()">
+<p id="result"></p>
+<script>
+    function check() {
+        let numa = parseInt(document.getElementById('numa').value);
+        let numb = parseInt(document.getElementById('numb').value);
+        let numc = parseInt(document.getElementById('numc').value);
+        if (numa < numb){
+            if (numa < numc) {
+                document.getElementById('result').innerHTML = 'min = ' + numa;
+            }else {
+                document.getElementById('result').innerHTML = 'min = ' + numc;
+            }
+        }else {
+            if (numb < numc) {
+                document.getElementById('result').innerHTML = 'min = ' + numb;
+            }else {
+                document.getElementById('result').innerHTML = 'min = ' + numc;
+            }
+        }
+    }
+</script>
+</body>
+</html>

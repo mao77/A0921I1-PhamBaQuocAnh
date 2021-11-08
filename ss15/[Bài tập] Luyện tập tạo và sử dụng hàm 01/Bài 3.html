@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+
+<input type="button" value="check" onclick="check(num1,num2)">
+<p id="result"></p>
+<script>
+let num1 = parseInt(prompt('nhap vao gia tri num 1'));
+let num2 = parseInt(prompt('nhap vao gia tri num 2'));
+function check(a,b) {
+    if (a > b) {
+        document.getElementById('result').innerText = 'a > b';
+    }else {
+        document.getElementById('result').innerHTML = a + b;
+    }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Tạo và gọi hàm</title>
+</head>
+<body>
+<script>
+    function processConfirm(answer) {
+        let result = "";
+        if (answer) {
+            result = "excelent!";
+        }else {
+            result = "bad!";
+        }
+        return result;
+    }
+    let confirmAnswer = confirm("shall we play the game?");
+    let theAnswer = processConfirm(confirmAnswer);
+    alert(theAnswer);
+</script>
+</body>
+</html>

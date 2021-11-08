@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Từ điển</title>
+</head>
+<body>
+<script>
+    let input = prompt('nhap vao tu tieng Anh can dich')
+    let vietDic = ['con chuột','cái ghế','bố','mẹ','bạn bè','giáo viên'];
+    let engDic = ['mouse','chair','father','mother','friend','teacher'];
+    if (engDic.includes(input)) {
+        for (let i = 0; i < engDic.length; i++) {
+            if (engDic[i]===input) {
+                console.log(engDic[i]+':'+vietDic[i]);
+            }
+        }
+    }else {
+        console.log('khong tim thay');
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let arr1 = 'kinh chao quy khach';
+    let arr2 = 'kinh chao quy khach';
+    let arr3 = 'xin chao quy khach'
+    function check(arra,arrb) {
+        let result = arra.localeCompare(arrb);
+        if (result == 0){
+            result = '2 mang bang nhau';
+            return result;
+        }else {
+            result = '2 mang khong bang nhau';
+            return result;
+        }
+    }
+    document.writeln(check(arr1, arr2)+'<br>');
+    document.writeln(check(arr1, arr3));
+
+
+
+</script>
+</body>
+</html>

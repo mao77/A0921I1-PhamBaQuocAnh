@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<input type="text" id="num" placeholder="nhap vao 1 so" onchange="square(parseInt(this.value))">
+<p id="result"></p>
+<script>
+
+    function square(num) {
+        document.getElementById('result').innerHTML = num*num;
+    }
+</script>
+</body>
+</html>

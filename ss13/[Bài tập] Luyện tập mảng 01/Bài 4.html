@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+    let arr = [11,22,1,4,5,9,-1,-9,-100,-22];
+    let max = arr.length - 1;
+    let min = 0;
+    for (min = 0; min < max; min++) {
+        let b = arr[min];
+        arr[min] = arr[max];
+        arr[max] = b;
+        max--;
+    }
+    document.writeln(arr);
+    document.writeln('<br>');
+    document.writeln(arr.reverse());
+</script>
+</body>
+</html>

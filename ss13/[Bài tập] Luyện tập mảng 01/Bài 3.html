@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let arr = [1,22,-1,-5,0,9,11,55,61,100];
+    let total = 0;
+    max = arr[0];
+   for (let i =1; i<arr.length;i++) {
+       if (arr[i]>max) {
+           max = arr[i];
+       }
+       total += arr[i];
+   }
+   document.writeln('max = ' + max + ', trung binh cong = ' + total/arr.length);
+
+
+</script>
+</body>
+</html>

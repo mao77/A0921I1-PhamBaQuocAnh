@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let stars = ['Polaris','Aldebaran','Deneb','Vega','Altair','Dubhe','Regulus'];
+    let starName = ['Ursa','Minor','Tarurus','Cygnus','Lyra','Aquila','Ursa','Major','Leo'];
+    let arr = prompt('nhap vao chom sao muon tim kiem');
+    function find(arr) {
+        let count = 0;
+        for (let i =0; i < stars.length; i++) {
+            if (arr === stars[i]) {
+                count++;
+                console.log(stars[i]+'='+starName[i]);
+            }
+        }
+        if (count === 0) {
+            console.log('not find !');
+        }
+    }
+    find(arr);
+</script>
+</body>
+</html>

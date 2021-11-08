@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<input type="text" id="r" placeholder="nhap do dai ban kinh ">
+<input type="button" value="Tinh Dien Tich" onclick="dienTich()">
+<input type="button" value="Tinh Chu Vi" onclick="chuVi()">
+<p id="result"></p>
+<script>
+    function getvalue() {
+        let r = parseInt(document.getElementById('r').value);
+        return r
+    }
+    function dienTich() {
+        let r = getvalue();
+        document.getElementById('result').innerHTML ='S = ' + r*r*3.14;;
+    }
+    function chuVi() {
+        let r = getvalue();
+        document.getElementById('result').innerText ='V = ' + 2*r*3.14;
+    }
+
+</script>
+</body>
+</html>
