@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả hình chữ nhật</title>
+</head>
+<body>
+<canvas id="canvas" width="1000" height="1000" style="border: 1px solid"></canvas>
+<script>
+    // let canvas = document.getElementById("canvas");
+    // let ctx = canvas.getContext("2d");
+    // ctx.fillStyle = "blue";
+    // ctx.fillRect(50, 50, 200, 100);
+    class Rectangle {
+        constructor(cdai,crong){
+            this.cdai = cdai;
+            this.crong = crong
+        }
+        chuvi () {
+            return (this.cdai + this.crong) * 2;
+        }
+        dientich () {
+            return (this.cdai * this.crong);
+        }
+        vehcn () {
+            let canvas = document.getElementById('canvas');
+            let ctx = canvas.getContext('2d');
+            ctx.fillStyle = 'blue';
+            ctx.fillRect(50,50,this.cdai,this.crong);
+        }
+    }
+    let hcn = new Rectangle(500,200);
+    let chuvi = hcn.chuvi();
+    let dientich = hcn.dientich();
+    hcn.vehcn();
+    alert('V='+chuvi+'; S='+dientich)
+</script>
+</body>
+</html>

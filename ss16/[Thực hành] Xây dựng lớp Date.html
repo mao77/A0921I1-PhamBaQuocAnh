@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Xây dựng lớp Date</title>
+</head>
+<body>
+<script>
+    class myDate {
+        constructor(day, month, year) {
+            this.d = day;
+            this.m = month;
+            this.y = year;
+        }
+        getDay() {
+            return this.d;
+        }
+        getMonth() {
+            return this.m;
+        }
+        getYear() {
+            return this.y;
+        }
+        setDate(day,month,year) {
+            this.d = day;
+            this.m = month;
+            this.y = year;
+        }
+        toString() {
+            return this.d+'/'+this.m+'/'+this.y;
+        }
+    }
+    let toDay = new myDate(6,11,2021);
+    let day = toDay.getDay();
+    let month = toDay.getMonth();
+    let year = toDay.getYear();
+    document.writeln('today is '+day+'/'+month+'/'+year);
+    toDay.setDate(7,11,2021);
+    let toString  = toDay.toString();
+    document.writeln('<br>to day is '+toString);
+
+</script>
+</body>
+</html>

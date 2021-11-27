@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor() {
+            this.weight = 10;
+        }
+
+        setWeight(weight) {
+            this.weight = weight;
+        }
+
+
+    }
+    class Human {
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+        eat (Apple) {
+            Apple.setWeight(Apple.weight-1);
+            this.weight += 1;
+        }
+        check (Apple) {
+            return Apple.weight;
+
+        }
+    }
+    let apple = new Apple();
+    let adam = new Human('Adam','male',60);
+    let eva = new Human('Eva','female',50)
+    alert('adam an 1 mieng tao');
+    adam.eat(apple);
+    alert('khoi luong tao con:'+adam.check(apple));
+    alert('eva an 1 mieng tao');
+    eva.eat(apple);
+    alert('khoi luong tao con:'+eva.check(apple));
+    alert('adam an 1 mieng tao');
+    adam.eat(apple);
+    alert('khoi luong tao con:'+adam.check(apple));
+    alert('eva an 1 mieng tao');
+    eva.eat(apple);
+    alert('khoi luong tao con:'+eva.check(apple));
+    alert('adam an 1 mieng tao');
+    adam.eat(apple);
+    alert('khoi luong tao con:'+adam.check(apple));
+    alert('eva an 1 mieng tao');
+    eva.eat(apple);
+    alert('khoi luong tao con:'+eva.check(apple));
+    alert('adam an 1 mieng tao');
+    adam.eat(apple);
+    alert('khoi luong tao con:'+adam.check(apple));
+    alert('eva an 1 mieng tao');
+    eva.eat(apple);
+    alert('khoi luong tao con:'+eva.check(apple));
+    alert('adam an 1 mieng tao');
+    adam.eat(apple);
+    alert('khoi luong tao con:'+adam.check(apple));
+    alert('eva an 1 mieng tao');
+    eva.eat(apple);
+    alert('khoi luong tao con:'+eva.check(apple));
+
+</script>
+</body>
+</html>
