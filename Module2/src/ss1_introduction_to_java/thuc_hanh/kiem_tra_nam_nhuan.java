@@ -1,6 +1,8 @@
-package ss1;
+package ss1_introduction_to_java.thuc_hanh;
+
 import java.util.Scanner;
-public class Thuc_Hanh_Kiem_Tra_Nam_Nhuan {
+
+public class kiem_tra_nam_nhuan {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int year;
@@ -20,5 +22,4 @@ public class Thuc_Hanh_Kiem_Tra_Nam_Nhuan {
             System.out.printf(year+" is NOT a leap year", year);
         }
     }
-    }
-
+}

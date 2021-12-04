@@ -1,6 +1,8 @@
-package ss1;
+package ss1_introduction_to_java.bai_tap;
+
 import java.util.Scanner;
-public class Bai_Tap_Hien_Thi_Loi_Chao {
+
+public class Hien_thi_loi_chao {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -8,4 +10,5 @@ public class Bai_Tap_Hien_Thi_Loi_Chao {
         String name = scanner.nextLine();
         System.out.println("Hello "+ name);
     }
+
 }

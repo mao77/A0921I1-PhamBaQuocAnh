@@ -1,9 +1,8 @@
-package ss1;
+package ss1_introduction_to_java.thuc_hanh;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Thuc_Hanh_Tinh_So_Ngay_Trong_Thang {
+public class Tinh_so_ngay_trong_thang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Which month that you want to count days? ");

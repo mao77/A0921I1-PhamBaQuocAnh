@@ -1,7 +1,8 @@
-package ss1;
+package ss1_introduction_to_java.thuc_hanh;
 
 import java.util.Date;
-public class Thuc_Hanh_Hien_Thi_Thoi_Gian_Cua_He_Thong {
+
+public class Hien_thi_thoi_gian_cua_he_thong {
     public static void main(String[] args) {
         Date now = new Date();
         System.out.println("Now is: " + now);

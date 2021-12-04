@@ -1,8 +1,8 @@
-package ss1;
+package ss1_introduction_to_java.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Thuc_Hanh_Su_Dung_Toan_Tu {
+public class Su_dung_toan_tu {
     public static void main(String[] args) {
         float width;
         float height;

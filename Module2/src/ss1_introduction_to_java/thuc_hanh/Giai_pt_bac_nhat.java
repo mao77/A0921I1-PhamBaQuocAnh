@@ -1,6 +1,6 @@
-package ss1;
+package ss1_introduction_to_java.thuc_hanh;
 import java.util.Scanner;
-public class Thuc_Hanh_Giai_Pt_Bac_Nhat {
+public class Giai_pt_bac_nhat {
     public static void main(String[] args) {
         System.out.println("Linear Equation Resolver");
         System.out.println("Given a equation as 'a * x + b = c', please enter constants:");

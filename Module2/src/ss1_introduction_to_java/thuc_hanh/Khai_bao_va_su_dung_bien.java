@@ -1,6 +1,6 @@
-package ss1;
+package ss1_introduction_to_java.thuc_hanh;
 
-public class Thuc_Hanh_Khai_Bao_Va_Su_Dung_Bien {
+public class Khai_bao_va_su_dung_bien {
     public static void main(String[] args) {
         int i = 10;
         float f = 20.5f;

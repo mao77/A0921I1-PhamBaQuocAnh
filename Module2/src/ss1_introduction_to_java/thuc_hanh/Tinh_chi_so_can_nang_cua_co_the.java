@@ -1,6 +1,8 @@
-package ss1;
+package ss1_introduction_to_java.thuc_hanh;
+
 import java.util.Scanner;
-public class Thuc_Hanh_Tinh_Chi_So_Can_Nang_Cua_Co_The {
+
+public class Tinh_chi_so_can_nang_cua_co_the {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double weight, height, bmi;
@@ -21,4 +23,4 @@ public class Thuc_Hanh_Tinh_Chi_So_Can_Nang_Cua_Co_The {
         else
             System.out.printf("%-20.2f%s", bmi, "Obese");
     }
-}
+        }

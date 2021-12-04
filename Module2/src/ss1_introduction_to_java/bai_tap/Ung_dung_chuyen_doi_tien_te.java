@@ -1,8 +1,8 @@
-package ss1;
+package ss1_introduction_to_java.bai_tap;
 
 import java.util.Scanner;
 
-public class Bai_Tap_Ung_Dung_Chuyen_Doi_Tien_Te {
+public class Ung_dung_chuyen_doi_tien_te {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int rate = 23000;
