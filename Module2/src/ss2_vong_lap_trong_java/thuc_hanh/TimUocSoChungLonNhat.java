@@ -2,7 +2,7 @@ package ss2_vong_lap_trong_java.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Tim_uoc_so_chung_lon_nhat {
+public class TimUocSoChungLonNhat {
     public static void main(String[] args) {
         int a;
         int b;

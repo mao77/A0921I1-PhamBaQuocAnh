@@ -2,7 +2,7 @@ package ss2_vong_lap_trong_java.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Ung_dung_tinh_tien_lai_cho_vay {
+public class UngDungTinhTienLaiChoVay {
     public static void main(String[] args) {
         double money = 1.0;
         int month = 1;

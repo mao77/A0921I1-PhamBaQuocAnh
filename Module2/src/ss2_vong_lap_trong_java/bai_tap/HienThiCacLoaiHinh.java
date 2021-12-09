@@ -2,7 +2,7 @@ package ss2_vong_lap_trong_java.bai_tap;
 
 import java.util.Scanner;
 
-public class Hien_thi_cac_loai_hinh {
+public class HienThiCacLoaiHinh {
     public static void main(String[] args) {
         int choice = -1;
         Scanner input = new Scanner(System.in);
@@ -35,7 +35,7 @@ public class Hien_thi_cac_loai_hinh {
 
                     for (int i = 0; i < chieuCao; i++) {
                         for (int j = 0; j < i; j++) {
-                             System.out.print("*");
+                            System.out.print("*");
                         }
                         System.out.print("\n");
                     }
