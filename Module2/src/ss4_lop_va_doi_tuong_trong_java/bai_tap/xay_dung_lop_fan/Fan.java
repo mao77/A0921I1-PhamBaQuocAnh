@@ -44,6 +44,8 @@ public class Fan {
     public String toString() {
         if (this.on == true) {
             return "FAN IS ON{speed: " + this.speed + ", color: " + this.color + ", radius: " + this.radius + "}";
-        }else return "FAN IS OF{color: " + color + ", radius: " + radius + "}";
+        }else  {
+            return "FAN IS OF{color: " + color + ", radius: " + radius + "}";
+        }
     }
 }
