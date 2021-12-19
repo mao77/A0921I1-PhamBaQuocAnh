@@ -46,6 +46,6 @@ public class Fan {
             return "FAN IS ON{speed: " + this.speed + ", color: " + this.color + ", radius: " + this.radius + "}";
         }else  {
             return "FAN IS OF{color: " + color + ", radius: " + radius + "}";
-        }
+        } 
     }
 }
