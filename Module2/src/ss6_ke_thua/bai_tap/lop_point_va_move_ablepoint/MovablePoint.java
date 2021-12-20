@@ -5,7 +5,6 @@ public class MovablePoint extends Point {
     private float ySpeed = 0.0f;
 
     MovablePoint() {
-        super();
     }
 
     MovablePoint(float xSpeed, float ySpeed) {
@@ -51,17 +50,14 @@ public class MovablePoint extends Point {
     public String toString() {
         return "MovablePoint{" +
                 "x=" + getX() +
-                "y=" + getY() +
-                "xSpeed=" + getxSpeed() +
+                ", y=" + getY() +
+                ", xSpeed=" + getxSpeed() +
                 ", ySpeed=" + getySpeed() +
                 '}';
     }
     public MovablePoint move() {
-        float x = getX();
-        float y = getY();
-        x += this.xSpeed;
-        y += this.ySpeed;
-        MovablePoint movablePoint = new MovablePoint(x,y);
-        return movablePoint;
+        setX(this.xSpeed + getX());
+        setY(this.ySpeed + getY());
+        return this;
     }
 }
