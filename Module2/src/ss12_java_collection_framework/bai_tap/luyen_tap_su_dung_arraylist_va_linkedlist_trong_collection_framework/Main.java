@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        ProductManager productManager = new ProductManager();
+        ProductManagerArrayList productManager = new ProductManagerArrayList();
         Scanner scanner = new Scanner(System.in);
         int selection = -1;
         do {

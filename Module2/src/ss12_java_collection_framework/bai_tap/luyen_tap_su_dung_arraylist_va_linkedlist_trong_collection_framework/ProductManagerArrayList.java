@@ -2,7 +2,7 @@ package ss12_java_collection_framework.bai_tap.luyen_tap_su_dung_arraylist_va_li
 
 import java.util.*;
 
-public class ProductManager {
+public class ProductManagerArrayList {
     List<Product> arrayList = new ArrayList<Product>();
 
 //    public ProductManager() {
