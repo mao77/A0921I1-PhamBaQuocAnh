@@ -2,9 +2,9 @@ package ss12_java_collection_framework.bai_tap.luyen_tap_su_dung_arraylist_va_li
 
 import java.util.Scanner;
 
-public class Main {
+public class TestLinkedList {
     public static void main(String[] args) {
-        ProductManagerArrayList productManager = new ProductManagerArrayList();
+        ProductManagerLinkedList productManagerLinkedList = new ProductManagerLinkedList();
         Scanner scanner = new Scanner(System.in);
         int selection = -1;
         do {
@@ -19,40 +19,33 @@ public class Main {
             );
             selection = scanner.nextInt();
             if (selection == 1) {
-                System.out.println("Nhập id của sản phẩm:");
+                System.out.println("Nhập id sản phẩm:");
                 int id = scanner.nextInt();
-                System.out.println("Nhập tên của sản phẩm:");
+                System.out.println("Nhập tên sản phẩm:");
                 scanner.nextLine();
                 String name = scanner.nextLine();
-                System.out.println("Nhập giá của sản phẩm:");
+                System.out.println("Nhập giá sản phẩm:");
                 double price = scanner.nextDouble();
                 Product product = new Product(id, name, price);
-                productManager.add(product);
-            }else if (selection == 2) {
-                productManager.display();
-            }else if (selection == 3) {
-                System.out.println("Nhập id của sản phẩm cần xóa:");
+                productManagerLinkedList.add(product);
+            }else if(selection == 2) {
+                productManagerLinkedList.display();
+            }else if(selection == 3) {
+                System.out.println("Nhập id sản phẩm cần xóa");
                 int id = scanner.nextInt();
                 Product product = new Product(id);
-                productManager.delete(product);
+                productManagerLinkedList.delete(product);
             }else if (selection == 4) {
                 System.out.println("Nhập tên sản phẩm cần tìm:");
                 scanner.nextLine();
                 String name = scanner.nextLine();
-                productManager.find(name);
+                productManagerLinkedList.find(name);
             }else if (selection == 5) {
-                System.out.println("Nhập id sản phẩm cần sửa:");
+                System.out.println("Nhập vào id của sản phẩm muốn sửa:");
                 int id = scanner.nextInt();
-                productManager.edit(id);
-            }else if (selection == 6) {
-                System.out.println("1.Sắp xếp tăng dần\n"
-                                  +"2.Sắp xếp giảm dần");
-                selection = scanner.nextInt();
-                if (selection == 1) {
-                    productManager.sortAscending();
-                }else if (selection == 2) {
-                    productManager.sortDescending();
-                }
+                productManagerLinkedList.edit(id);
+            }else if (selection ==6) {
+                productManagerLinkedList.sortAscending();
             }
         } while (selection != 0);
     }
