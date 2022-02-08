@@ -8,7 +8,7 @@ import java.util.LinkedHashMap;
 import java.util.Scanner;
 
 public class RoomServices implements IFacilityServices {
-    private static final String ROOM_PATH_FILE = "D:\\CaseStudeyModule2\\src\\data\\room.csv";
+    public static final String ROOM_PATH_FILE = "D:\\CaseStudeyModule2\\src\\data\\room.csv";
     Scanner scanner = new Scanner(System.in);
     @Override
     public void add() {

@@ -7,6 +7,7 @@ public class MainControllerFurama {
     CustomerFuramaController customerFuramaController = new CustomerFuramaController();
     EmployeeFuramaController employeeFuramaController = new EmployeeFuramaController();
     FacilityFuramaController facilityFuramaController = new FacilityFuramaController();
+    BookingFuramaController bookingFuramaController = new BookingFuramaController();
     public void displayMainMenu() {
         boolean flag = true;
         do {
@@ -14,7 +15,8 @@ public class MainControllerFurama {
                     "1.CUSTOMER MANAGEMENT\n" +
                     "2.EMPLOYEE MANAGEMENT\n" +
                     "3.FACILITY MANAGEMENT\n" +
-                    "4.EXIT\n"
+                    "4.BOOKING MANAGEMENT\n" +
+                    "5.EXIT\n"
             );
             int chooseMenu = Integer.parseInt(scanner.nextLine());
             switch (chooseMenu) {
@@ -31,10 +33,15 @@ public class MainControllerFurama {
                      facilityFuramaController.displayFacilityFuramaController();
                     break;
                 case 4:
+                    //booking management
+                    bookingFuramaController.displayBookingFuramaController();
+                    break;
+                case 5:
                     flag = false;
                     break;
                 default:
-                    flag = true;
+                    System.out.println("Mời chọn menu:");
+                    break;
             }
         } while (flag);
     }

@@ -5,13 +5,10 @@ import services.IEmployeeServices;
 import util.ReadAndWriteEmployeeListToCSV;
 import util.ReadAndWriteStringListToCSV;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Scanner;
+import java.util.*;
 
 public class EmployeeServices implements IEmployeeServices {
-    private final String EMPLOYEE_PATH_FILE ="D:\\CaseStudeyModule2\\src\\data\\employee.csv";
+    protected final String EMPLOYEE_PATH_FILE ="D:\\CaseStudeyModule2\\src\\data\\employee.csv";
     Scanner scanner = new Scanner(System.in);
     @Override
     public void add() {
@@ -119,6 +116,17 @@ public class EmployeeServices implements IEmployeeServices {
         System.out.println("Chọn ID Employee cần xóa:");
         String chooseDelete = scanner.nextLine();
         employeeList.removeIf(employee -> Objects.equals(employee.getEmployeeID(), chooseDelete));
+        ReadAndWriteEmployeeListToCSV.writeEmployeeListToCSV(EMPLOYEE_PATH_FILE,employeeList,false);
+    }
+    public void sortByID(){
+        List<Employee> employeeList = new ArrayList<>();
+        employeeList = ReadAndWriteEmployeeListToCSV.readEmployeeListFromCSV(EMPLOYEE_PATH_FILE);
+        employeeList.sort(new Comparator<Employee>() {
+            @Override
+            public int compare(Employee o1, Employee o2) {
+                return o1.getEmployeeID().compareTo(o2.getEmployeeID());
+            }
+        });
         ReadAndWriteEmployeeListToCSV.writeEmployeeListToCSV(EMPLOYEE_PATH_FILE,employeeList,false);
     }
 }

@@ -7,16 +7,18 @@ import java.util.Scanner;
 public class CustomerFuramaController {
     CustomerServices customerServices = new CustomerServices();
     Scanner scanner = new Scanner(System.in);
-    public void displayCustomerFuramaController(){
+
+    public void displayCustomerFuramaController() {
         boolean flag = true;
         do {
-            System.out.printf("---------------CUSTOMER MANAGEMENT---------------\n"+
-                    "1.DISPLAY LIST CUSTOMER\n"+
-                    "2.ADD NEW CUSTOMER\n"+
-                    "3.EDIT CUSTOMER\n"+
-                    "4.SEARCH CUSTOMER BY NAME\n"+
-                    "5.DELETE CUSTOMER BY ID\n"+
-                    "6.EXIT TO MAIN MENU\n"
+            System.out.printf("---------------CUSTOMER MANAGEMENT---------------\n" +
+                    "1.DISPLAY LIST CUSTOMER\n" +
+                    "2.ADD NEW CUSTOMER\n" +
+                    "3.EDIT CUSTOMER\n" +
+                    "4.SEARCH CUSTOMER BY NAME\n" +
+                    "5.DELETE CUSTOMER BY ID\n" +
+                    "6.SORT LIST CUSTOMER BY ID\n" +
+                    "7.EXIT TO MAIN MENU\n"
             );
             int chooseMenu = Integer.parseInt(scanner.nextLine());
             switch (chooseMenu) {
@@ -46,15 +48,15 @@ public class CustomerFuramaController {
                     customerServices.delete();
                     break;
                 case 6:
-                    flag = false;
+                    System.out.println("đây là sort by id");
+                    customerServices.sortByID();
                     break;
                 case 7:
-                    System.out.println("đây là sort by name");
-                    customerServices.sortByID();
+                    flag = false;
                     break;
                 default:
                     break;
             }
-        }while (flag);
+        } while (flag);
     }
 }

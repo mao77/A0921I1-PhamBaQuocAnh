@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class VillaServices implements IFacilityServices {
-    private static final String VILLA_PATH_FILE = "D:\\CaseStudeyModule2\\src\\data\\villa.csv";
+    public static final String VILLA_PATH_FILE = "D:\\CaseStudeyModule2\\src\\data\\villa.csv";
     Scanner scanner = new Scanner(System.in);
     @Override
     public void displayMaintenanceList() {

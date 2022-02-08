@@ -11,7 +11,7 @@ import java.sql.Struct;
 import java.util.*;
 
 public class CustomerServices implements ICustomerServices {
-    private static final String CUSTOMER_PATH_FILE = "D:\\CaseStudeyModule2\\src\\data\\customer.csv";
+    public static final String CUSTOMER_PATH_FILE = "D:\\CaseStudeyModule2\\src\\data\\customer.csv";
     Scanner scanner = new Scanner(System.in);
 
     @Override

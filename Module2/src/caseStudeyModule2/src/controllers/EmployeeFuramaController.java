@@ -16,7 +16,8 @@ public class EmployeeFuramaController {
                    "3.EDIT EMPLOYEE\n" +
                    "4.SEARCH EMPLOYEE BY NAME\n" +
                    "5.DELETE EMPLOYEE BY ID\n" +
-                   "6.EXIT TO MAIN MENU\n"
+                   "6.SORT EMPLOYEE LIST BY ID\n" +
+                   "7.EXIT TO MAIN MENU\n"
            );
            int chooseMenu = Integer.parseInt(scanner.nextLine());
            switch (chooseMenu) {
@@ -45,6 +46,11 @@ public class EmployeeFuramaController {
                    employeeServices.delete();
                    break;
                case 6:
+                   //sort employee
+                   System.out.println("Sort employee list by ID");
+                   employeeServices.sortByID();
+                   break;
+               case 7:
                    flag = false;
                    break;
                default:

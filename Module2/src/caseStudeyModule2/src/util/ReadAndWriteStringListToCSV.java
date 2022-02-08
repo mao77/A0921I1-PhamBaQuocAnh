@@ -34,7 +34,6 @@ public class ReadAndWriteStringListToCSV {
     }
     protected static List<String> readStringListFromCSV(String pathFile){
         List<String> stringList = new ArrayList<>();
-        List<Employee> employeeList =  new ArrayList<>();
         File file = new File(pathFile);
         FileReader fileReader = null;
         BufferedReader bufferedReader = null;
