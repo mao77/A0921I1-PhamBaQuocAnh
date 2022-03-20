@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c82e5bf5-b7f8-484d-8188-4ee21bfec983" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css_cascading_style_sheet/bai_tap/dinh_dang_van_ban_voi_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css_cascading_style_sheet/bai_tap/nhung_css_vao_file_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css_cascading_style_sheet/bai_tap/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css_cascading_style_sheet/bai_tap/tao_trang_doc_truyen_ngan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_css_cascading_style_sheet/thuc_hanh_su_dung_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap_co_ban/bai_tap/[Bài tập] Tạo gallery đơn giản sử dụng Bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss8_bootstrap_co_ban/thuc_hanh/[Thực hành] Sử dụng Bootstrap xây dựng form login/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module2/src/caseStudeyModule2/out/production/CaseStudeyModule2/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module2/src/caseStudeyModule2/out/production/CaseStudeyModule2/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module2/src/caseStudeyModule2/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module2/src/caseStudeyModule2/src/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_thao_tac_voi_co_so_du_lieu/bai_tap/thao_tac_voi_csdl_quan_ly_sinh_vien.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_cac_ham_thong_dung_trong_sql/bai_tap/luyen_tap_cac_ham_thong_dung.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_cac_ham_thong_dung_trong_sql/bai_tap/luyen_tap_cac_ham_thong_dung.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="26XlFAsjzaiGhidnKwaYgWcNCbq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c82e5bf5-b7f8-484d-8188-4ee21bfec983" name="Default Changelist" comment="" />
+      <created>1647577705948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647577705948</updated>
+      <workItem from="1647577715659" duration="104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1647577792846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1647577792846" />
+    <state x="65" y="0" key="new project wizard" timestamp="1647577818239">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1647577818239" />
+  </component>
+</project>

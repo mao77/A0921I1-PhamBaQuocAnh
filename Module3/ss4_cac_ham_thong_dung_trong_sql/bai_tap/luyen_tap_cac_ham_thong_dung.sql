@@ -5,6 +5,7 @@ select * from subject having credit >= all(select credit from subject);
 select mark.subID, subject.subName ,max(mark) max_mark from mark join subject on mark.subID = subject.subID group by mark.subID;
 
 /*Hiển thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần*/
-select s.studentID,s.studentName,avg(m.mark) from mark as m 
+select s.studentID,s.studentName,avg(m.mark) diem_trung_binh from mark as m 
 join student as s on m.studentID = s.studentID
-group by studentID;
+group by studentID
+order by diem_trung_binh desc;
