@@ -12,7 +12,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <c:redirect url="view/list.jsp"></c:redirect>
+  <c:redirect url="/products"></c:redirect>
   $END$
   </body>
 </html>

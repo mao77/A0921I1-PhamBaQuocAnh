@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Customer List</title>
+    <title>Product List</title>
 </head>
 <body>
 <h1>Products</h1>

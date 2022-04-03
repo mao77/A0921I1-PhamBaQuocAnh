@@ -35,6 +35,29 @@ public class ProductServlet extends HttpServlet {
                 break;
         }
     }
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("action");
+        if(action == null){
+            action = "";
+        }
+        switch (action){
+            case "create":
+                showCreateForm(request,response);
+                break;
+            case "edit":
+                showEditForm(request,response);
+                break;
+            case "delete":
+                showDeleteForm(request,response);
+                break;
+            case "view":
+
+                break;
+            default:
+                listProducts(request, response);
+                break;
+        }
+    }
 
     private void deleteProduct(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
@@ -124,29 +147,7 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String action = request.getParameter("action");
-        if(action == null){
-            action = "";
-        }
-        switch (action){
-            case "create":
-                showCreateForm(request,response);
-                break;
-            case "edit":
-                showEditForm(request,response);
-                break;
-            case "delete":
-                showDeleteForm(request,response);
-                break;
-            case "view":
-                
-                break;
-            default:
-                listProducts(request, response);
-                break;
-        }
-    }
+
 
     private void showDeleteForm(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
