@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4af2bae-da89-4186-906e-bd9b4f537f57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/controller/EmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/controller/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/controller/ServiceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/EducationDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/bean/ServiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/DivisionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/EducationDegreeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/PositionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/RentTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/RentypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/ServiceTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/CustomerTypeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/DivisionRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/EducationDegreeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/EmployeeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/PositionRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/RentTypeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/ServiceRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/repository/impl/ServiceTypeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/DivisionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/EducationDegreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/RentypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/ServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/ServiceTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/CustomerTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/DivisionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/EducationDegreeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/PositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/RentTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/ServiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/java/model/service/impl/ServiceTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/employee/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/employee/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/service/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/service/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/src/main/webapp/view/service/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2/src/caseStudeyModule2/out/production/CaseStudeyModule2/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2/src/caseStudeyModule2/out/production/CaseStudeyModule2/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2/src/caseStudeyModule2/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2/src/caseStudeyModule2/src/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/model/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/model/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/model/repository/impl/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/model/repository/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/model/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/model/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/model/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/WEB-INF/classes/model/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/view/user/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/view/user/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/view/user/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-8.5.77/webapps/ROOT/view/user/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/controller/ProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/responsitory/ProductResponsitory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.60/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.60/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.60/webapps/ROOT/view/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/model/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/model/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/model/repository/impl/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/model/repository/impl/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/model/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/model/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/model/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/classes/java/main/model/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/libs/user-manager-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/build/libs/user-manager-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/model/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/model/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/model/repository/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/model/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/model/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/model/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/model/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL/src/main/java/model/service/impl/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="27pRLcCG0nSSPzI3trWBXSgoHil" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thuc_hanh/Quản lý User sử dụng JSP-Servlet-JDBC-MySQL" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4af2bae-da89-4186-906e-bd9b4f537f57" name="Default Changelist" comment="" />
+      <created>1650014985080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650014985080</updated>
+      <workItem from="1650014986560" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1650015038284">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1650015038284" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1650015044140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1650015044140" />
+  </component>
+</project>

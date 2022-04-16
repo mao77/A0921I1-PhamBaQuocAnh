@@ -16,4 +16,6 @@ public interface UserRepository {
     public boolean updateUser(User user);
     public List<User> sortUserList();
     public List<User> searchList(String country);
+    User getUserById(int id);
+    void insertUserStore(User user);
 }

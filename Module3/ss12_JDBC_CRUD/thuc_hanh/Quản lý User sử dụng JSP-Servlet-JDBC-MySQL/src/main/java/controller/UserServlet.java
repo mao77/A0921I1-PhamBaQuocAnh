@@ -40,6 +40,37 @@ public class UserServlet extends HttpServlet {
         }
     }
 
+
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("action");
+        if (action == null) {
+            action = "";
+        }
+        switch (action) {
+            case "add":
+                // trả về một form thêm mới
+                showFormCreate(request, response);
+                break;
+            case "edit":
+                showEditForm(request,response);
+                // chỉnh sửa
+                break;
+            case "delete":
+                deleteUser(request,response);
+                break;
+            case "sort" :
+                sortUserList(request,response);
+                break;
+            case "search":
+                searchByCountryFrom(request,response);
+                break;
+            default:
+                showUsertList(request, response);
+                // hien thi danh sách
+        }
+    }
+
     private void updateUser(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("name");
@@ -76,35 +107,6 @@ public class UserServlet extends HttpServlet {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String action = request.getParameter("action");
-        if (action == null) {
-            action = "";
-        }
-        switch (action) {
-            case "add":
-                // trả về một form thêm mới
-                showFormCreate(request, response);
-                break;
-            case "edit":
-                showEditForm(request,response);
-                // chỉnh sửa
-                break;
-            case "delete":
-                deleteUser(request,response);
-                break;
-            case "sort" :
-                sortUserList(request,response);
-                break;
-            case "search":
-                searchByCountryFrom(request,response);
-                break;
-            default:
-                showUsertList(request, response);
-                // hien thi danh sách
         }
     }
 
@@ -149,7 +151,7 @@ public class UserServlet extends HttpServlet {
 
     private void showEditForm(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
-        User existingUser = userService.select(id);
+        User existingUser = userService.getUserById(id);
         try{
             RequestDispatcher dispatcher = request.getRequestDispatcher("view/user/edit.jsp");
             request.setAttribute("user", existingUser);

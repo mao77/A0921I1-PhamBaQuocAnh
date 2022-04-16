@@ -12,4 +12,6 @@ public interface UserService {
     boolean update(User user);
     List<User> sortByName();
     List<User> searchByCountry(String country);
+    User getUserById(int id);
+    void insertUserStore(User user);
 }

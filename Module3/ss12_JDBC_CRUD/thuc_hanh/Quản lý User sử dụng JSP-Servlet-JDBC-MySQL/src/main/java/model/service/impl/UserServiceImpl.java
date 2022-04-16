@@ -45,6 +45,14 @@ public class UserServiceImpl implements UserService {
         return userRepository.searchList(country);
     }
 
+    @Override
+    public User getUserById(int id) {
+        return userRepository.getUserById(id);
+    }
 
+    @Override
+    public void insertUserStore(User user) {
+         userRepository.insertUserStore(user);
+    }
 }
 
