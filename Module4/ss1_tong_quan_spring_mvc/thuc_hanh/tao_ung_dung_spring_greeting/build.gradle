@@ -1,11 +1,7 @@
-
-
 plugins {
     id 'java'
     id 'war'
 }
-
-compileJava.options.encoding = 'UTF-8'
 
 group 'org.example'
 version '1.0-SNAPSHOT'
