@@ -1,6 +1,4 @@
 package codegym.vn.config;
-
-import config.AppConfig;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

@@ -11,6 +11,14 @@
     <title>Order</title>
 </head>
 <body>
-
+<h1>Sandwich condiments</h1>
+<form action="/sandwich/order" method="post">
+    <input type="checkbox" value="Lettuce" name="condiments">Lettuce
+    <input type="checkbox" value="Tomato" name="condiments">Tomato
+    <input type="checkbox" value="Mustard" name="condiments">Mustard
+    <input type="checkbox" value="Sprouts" name="condiments">Sprouts
+    <br>
+    <input type="submit" value="ORDER">
+</form>
 </body>
 </html>

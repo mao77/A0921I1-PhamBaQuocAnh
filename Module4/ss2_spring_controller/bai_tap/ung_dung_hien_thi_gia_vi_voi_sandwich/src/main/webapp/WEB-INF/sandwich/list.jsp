@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Admin
@@ -8,9 +9,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<h1>Sandwich condiments</h1>
+<h3>Các gia vị được chọn</h3>
+<table>
+<c:forEach items="${condiments}" var="condiment">
+    <tr>
+        <td>${condiment}</td>
+    </tr>
+</c:forEach>
+</table>
 </body>
 </html>
