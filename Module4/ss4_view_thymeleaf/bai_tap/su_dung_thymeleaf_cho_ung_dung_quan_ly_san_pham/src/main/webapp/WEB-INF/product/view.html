@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>View Product</h3>
+<p>
+    <a th:href="@{/products}">
+        Back to customer list
+    </a>
+</p>
+<!--<div id="detail">-->
+<!--    <div class="cusdetail">-->
+<!--        <label>Name:</label>-->
+<!--        <label th:text="${product.name}"></label>-->
+<!--    </div>-->
+<!--    <div class="cusdetail">-->
+<!--        <label>Email:</label>-->
+<!--        <label th:text="${customer.email}"></label>-->
+<!--    </div>-->
+<!--    <div class="cusdetail">-->
+<!--        <label>Address:</label>-->
+<!--        <label th:text="${customer.address}"></label>-->
+<!--    </div>-->
+<!--</div>-->
+<div>
+    <label>Name:</label>
+    <label th:text="${product.name}"></label>
+</div>
+<div>
+    <label>Type:</label>
+    <label th:text="${product.type}"></label>
+</div>
+<div>
+    <label>Price:</label>
+    <label th:text="${product.price}"></label>
+</div>
+<div>
+    <label>Origin:</label>
+    <label th:text="${product.origin}"></label>
+</div>
+</body>
+</html>
