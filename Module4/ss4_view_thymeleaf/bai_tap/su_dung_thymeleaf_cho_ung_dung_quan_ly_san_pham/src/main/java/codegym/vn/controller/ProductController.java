@@ -5,10 +5,8 @@ import codegym.vn.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.ServletRequestBindingException;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
@@ -72,5 +70,16 @@ public class ProductController<Customer> {
     public String view(@PathVariable int id, Model model) {
         model.addAttribute("product", productService.findById(id));
         return "/product/view";
+    }
+
+    @GetMapping("/search")
+    public String search() {
+        return "product/search";
+    }
+
+    @PostMapping("/search")
+    public String doSearch(@RequestParam ("searchName") String searchName,Model model) {
+        model.addAttribute("productList",productService.findByName(searchName));
+        return "/product/index";
     }
 }

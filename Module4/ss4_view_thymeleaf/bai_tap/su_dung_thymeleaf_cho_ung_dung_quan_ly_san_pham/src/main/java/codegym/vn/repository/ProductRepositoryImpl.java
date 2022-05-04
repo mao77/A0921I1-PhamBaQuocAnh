@@ -41,4 +41,16 @@ public class ProductRepositoryImpl implements ProductRepository{
     public void delete(int id) {
         products.remove(id);
     }
+
+    @Override
+    public List<Product> findByName(String searchName) {
+        List<Product> searchProducts = new ArrayList<>();
+        for (Product product: products.values()) {
+            if (product.getName().contains(searchName)) {
+                searchProducts.add(product);
+            }
+        }
+        return searchProducts;
+    }
+
 }
