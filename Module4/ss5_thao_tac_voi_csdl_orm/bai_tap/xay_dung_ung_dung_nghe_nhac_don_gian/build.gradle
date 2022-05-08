@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+compileJava.options.encoding = 'UTF-8'
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.springframework', name: 'spring-web', version: '5.1.5.RELEASE'
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.1.5.RELEASE'
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.0'
+    implementation group: 'org.thymeleaf', name: 'thymeleaf-spring4', version: '3.0.15.RELEASE'
+    implementation group: 'org.thymeleaf', name: 'thymeleaf', version: '3.0.15.RELEASE'
+
+    implementation group: 'org.springframework', name: 'spring-tx', version: '5.1.5.RELEASE'
+    implementation group: 'org.springframework', name: 'spring-orm', version: '5.1.5.RELEASE'
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.1.Final'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '5.1.47'
+}

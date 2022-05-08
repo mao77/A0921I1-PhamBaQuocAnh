@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Create new Song</h1>
+<a href="/song/list">Back to list</a>
+<form th:action="@{/song/create}" method="post" th:object="${song}">
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td><input type="text" th:field="*{id}" /></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" th:field="*{name}" /></td>
+        </tr>
+        <tr>
+            <td>Style</td>
+            <td>
+                <select th:field="*{type}">
+                    <option value="">Choose Type</option>
+                    <option th:each="typeName : ${tyleNames}"
+                            th:value="${typeName}" th:text="${typeName}"></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Link</td>
+            <td><input type="text" th:field="*{link}" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Create" />
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

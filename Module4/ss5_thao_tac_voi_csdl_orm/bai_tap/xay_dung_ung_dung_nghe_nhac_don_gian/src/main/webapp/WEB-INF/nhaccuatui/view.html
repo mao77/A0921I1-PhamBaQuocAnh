@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<h1>Song detail</h1>
+<table border="1" th:object="${song}">
+    <tr>
+        <td>ID</td>
+        <td th:text="*{id}"></td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td th:text="*{name}"></td>
+    </tr>
+    <tr>
+        <td>Type</td>
+        <td th:text="*{type}"></td>
+    </tr>
+    <tr>
+        <td>Link</td>
+        <td th:text="*{link}"></td>
+    </tr>
+</table>
+<a th:href="@{/song/list}">Back to list</a>
 </body>
 </html>
