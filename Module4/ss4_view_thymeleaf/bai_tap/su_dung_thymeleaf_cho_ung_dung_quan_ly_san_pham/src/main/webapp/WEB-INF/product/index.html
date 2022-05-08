@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+<div th:insert="~{template.html::header}"></div>
 <h3>Products</h3>
 <p>
     <a th:href="@{/products/create}">
@@ -32,5 +33,6 @@
 
     </tr>
 </table>
+<div th:replace="template.html::footer"></div>
 </body>
 </html>

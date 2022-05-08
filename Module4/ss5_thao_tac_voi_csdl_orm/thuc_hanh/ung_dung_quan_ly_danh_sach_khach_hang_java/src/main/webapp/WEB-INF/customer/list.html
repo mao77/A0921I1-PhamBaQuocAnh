@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:insert="~{template.html::header}"></div>
+<h1>Display all student</h1>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Class name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Sex</th>
+        <th>Action</th>
+    </tr>
+    <tr th:each="student : ${students}" th:object="${student}">
+        <td th:text="*{id}"></td>
+        <td th:text="*{name}"></td>
+        <td th:text="*{className}"></td>
+        <td th:text="*{email}"></td>
+        <td th:text="*{phoneNumber}"></td>
+        <td th:text="*{sex}"></td>
+        <td>
+            <a th:href="@{/student/view/(id=${student.id})}">View</a>
+        </td>
+    </tr>
+
+</table>
+<div th:replace="~{template.html::footer}"></div>
+</body>
+</html>

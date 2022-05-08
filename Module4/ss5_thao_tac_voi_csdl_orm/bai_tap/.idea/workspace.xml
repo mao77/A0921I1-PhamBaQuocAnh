@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a21cd83-9dda-4356-aaf0-0fa7b8c2cb24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/webapp/WEB-INF/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/java/codegym/vn/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/java/codegym/vn/config/AppInitiallizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/java/codegym/vn/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/java/codegym/vn/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/java/codegym/vn/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/java/codegym/vn/repository/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/java/codegym/vn/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/java/codegym/vn/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/ung_dung_quan_ly_danh_sach_khach_hang_java/src/main/webapp/WEB-INF/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2/src/caseStudeyModule2/out/production/CaseStudeyModule2/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2/src/caseStudeyModule2/out/production/CaseStudeyModule2/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2/src/caseStudeyModule2/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2/src/caseStudeyModule2/src/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/BUILDING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/RELEASE-NOTES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/RUNNING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/bootstrap.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/catalina-tasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/catalina.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/catalina.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/ciphers.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/ciphers.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/commons-daemon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/configtest.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/configtest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/daemon.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/digest.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/digest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/makebase.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/makebase.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/service.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/setclasspath.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/setclasspath.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/shutdown.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/shutdown.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/startup.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/startup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/tcnative-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/tomcat-juli.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/tomcat9.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/tomcat9w.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/tool-wrapper.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/tool-wrapper.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/version.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/bin/version.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/jaspic-providers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/jaspic-providers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/tomcat-users.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/annotations-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/catalina-ant.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/catalina-ha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/catalina-ssi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/catalina-storeconfig.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/catalina-tribes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/catalina.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/ecj-4.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/el-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/jasper-el.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/jasper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/jaspic-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/jsp-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-coyote.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-dbcp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-cs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-de.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-es.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-fr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-ja.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-ko.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-pt-BR.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-ru.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-i18n-zh-CN.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-jdbc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-jni.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-util-scan.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/tomcat-websocket.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/lib/websocket-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/temp/safeToDelete.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/META-INF/war-tracker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/controller/BenhAnServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/controller/GroundServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/controller/HomeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/bean/BenhAn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/bean/BenhNhan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/bean/Floor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/bean/Ground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/bean/GroundStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/bean/GroundType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/BaseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/BenhAnRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/BenhNhanRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/FloorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/GroundRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/GroundStatusRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/GroundTypeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/impl/BenhAnRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/impl/BenhNhanRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/impl/FloorRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/impl/GroundRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/impl/GroundStatusRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/repository/impl/GroundTypeRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/BenhAnService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/BenhNhanService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/FloorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/GroundService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/GroundStatusService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/GroundTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/impl/BenhAnServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/impl/BenhNhanServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/impl/FloorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/impl/GroundServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/impl/GroundStatusServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/classes/model/service/impl/GroundTypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/lib/mysql-connector-java-8.0.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/view/benhAn/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/view/benhAn/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/view/benhAn/kien.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/ROOT/view/benhAn/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/BUILDING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/RELEASE-NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/RUNNING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/aio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/annotationapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/api/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/build.xml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/deployment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/installation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/processes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/docs/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/sample.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/src/mypackage/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/web/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/web/images/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/sample/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/appdev/web.xml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/apr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/architecture/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/architecture/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/architecture/requestProcess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/architecture/requestProcess/authentication-process.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/architecture/requestProcess/request-process.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/architecture/startup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/architecture/startup/serverStartup.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/architecture/startup/serverStartup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/balancer-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/building.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/cdi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/cgi-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/changelog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/class-loader-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/cluster-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/ajp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/automatic-deployment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-channel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-deployer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-interceptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-listener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-membership.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-receiver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-sender.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster-valve.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cluster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/cookie-processor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/credentialhandler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/engine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/executor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/globalresources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/host.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/http.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/http2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/jar-scan-filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/jar-scanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/jaspic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/loader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/realm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/resources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/server.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/sessionidgenerator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/systemprops.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/config/valve.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/connectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/default-servlet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/deployer-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/developers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/elapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/graal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/host-manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/html-host-manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/html-manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/asf-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/code.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/cors-flowchart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/design.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/docs-stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/docs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/fix.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/fonts/OpenSans400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/fonts/OpenSans400italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/fonts/OpenSans600.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/fonts/OpenSans600italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/fonts/OpenSans700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/fonts/OpenSans700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/fonts/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/tomcat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/update.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/images/void.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/jasper-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/jaspicapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/jdbc-pool.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/jndi-datasource-examples-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/jndi-resources-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/jspapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/logging.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/maven-jars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/mbeans-descriptors-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/mbeans-descriptors.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/monitoring.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/proxy-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/realm-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/rewrite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/security-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/security-manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/servletapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/ssi-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/ssl-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/tribes/developers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/tribes/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/tribes/interceptors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/tribes/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/tribes/membership.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/tribes/setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/tribes/status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/tribes/transport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/virtual-hosting-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/web-socket-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/websocketapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/windows-auth-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/docs/windows-service-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/CookieExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/CookieExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/HelloWorldExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/HelloWorldExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_cs.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_ja.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_ko.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_pt_BR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/LocalStrings_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/RequestHeaderExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/RequestHeaderExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/RequestInfoExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/RequestInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/RequestParamExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/RequestParamExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/ServletToJsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/ServletToJsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/SessionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/SessionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async0$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Async3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Stockticker$Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Stockticker$TickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Stockticker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/async/Stockticker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/cal/Entries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/cal/Entries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/cal/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/cal/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/cal/JspCalendar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/cal/JspCalendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/cal/TableBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/cal/TableBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/checkbox/CheckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/colors/ColorGameBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/dates/JspCalendar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/dates/JspCalendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/error/Smart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/error/Smart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/FooTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/FooTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/LogTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/LogTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/ValuesTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/examples/ValuesTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/filters/ExampleFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/listeners/ContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/listeners/ContextListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/listeners/SessionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/listeners/SessionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$CounterListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$NumberWriterListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/num/NumberGuessBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/sessions/DummyCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/sessions/DummyCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers$TrailerFieldSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/util/CookieFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/util/CookieFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/util/HTMLFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/util/HTMLFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/validators/DebugValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/validators/DebugValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Client$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage$ParseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$MessageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$CompletedFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/echo/servers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/Location$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/Snake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/jsp/debug-taglib.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/jsp/example-taglib.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/jsp/jsp2-example-taglib.tld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/tags/displayProducts.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/tags/helloWorld.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/tags/panel.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/async/async1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/async/async1.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/async/async3.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/async/async3.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/async/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/async/index.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/Entries.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/Entry.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/JspCalendar.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/TableBean.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/cal1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/cal1.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/cal2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/cal2.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/cal/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/checkbox/CheckTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/checkbox/check.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/checkbox/checkresult.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/checkbox/checkresult.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/checkbox/cresult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/colors/ColorGameBean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/colors/clr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/colors/colors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/colors/colrs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/colors/colrs.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/dates/date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/dates/date.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/dates/date.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/error/er.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/error/err.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/error/err.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/error/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/error/errorpge.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/error/errorpge.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/forward/forward.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/forward/forward.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/forward/fwd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/forward/one.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/forward/one.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/forward/two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/images/code.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/images/execute.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/images/return.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/include/foo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/include/foo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/include/foo.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/include/inc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/include/include.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/include/include.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/Functions.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/ValuesBean.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/ValuesTag.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/basic-arithmetic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/basic-comparisons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/composite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/composite.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/composite.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/functions.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/functions.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/implicit-objects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/implicit-objects.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/el/implicit-objects.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/FooBean.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/shuffle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspx/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspx/basic.jspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspx/basic.jspx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspx/svgexample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspx/textRotate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspx/textRotate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspx/textRotate.jspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/EchoAttributesTag.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/coda.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/coda.jspf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/config.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/config.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/dynamicattrs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/prelude.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/misc/prelude.jspf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/Functions.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/book.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/book.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/book.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/hello.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/repeat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/repeat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/simpletag/repeat.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/displayProducts.tag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/panel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/panel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/panel.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/panel.tag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/products.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsptoserv/ServletToJsp.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsptoserv/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsptoserv/hello.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/jsptoserv/jts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/num/numguess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/num/numguess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/num/numguess.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/security/protected/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/security/protected/error.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/security/protected/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/security/protected/index.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/security/protected/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/security/protected/login.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/sessions/DummyCart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/sessions/carts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/sessions/carts.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/sessions/carts.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/sessions/crt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/simpletag/foo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/simpletag/foo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/simpletag/foo.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/snp/snoop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/snp/snoop.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/snp/snoop.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/choose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/choose.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/choose.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/foreach.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/foreach.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/foreach.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/if.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/if.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/if.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/tagplugin/notes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/xml/xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/xml/xml.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/jsp/xml/xml.jsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/cookies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/helloworld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/images/code.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/images/execute.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/images/return.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/nonblocking/bytecounter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/reqheaders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/reqinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/reqparams.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/servlets/sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/websocket/chat.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/websocket/drawboard.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/websocket/echo.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/websocket/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/examples/websocket/snake.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/WEB-INF/jsp/401.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/WEB-INF/jsp/403.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/WEB-INF/jsp/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/WEB-INF/manager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/css/manager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/images/asf-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/images/tomcat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/host-manager/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/jsp/401.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/jsp/403.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/jsp/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/jsp/connectorCerts.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/jsp/connectorTrustedCerts.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/jsp/sessionsList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/css/manager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/images/asf-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/images/tomcat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/status.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/apache-tomcat-9.0.60/webapps/manager/xform.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/build/classes/java/main/controller/ServiceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/build/classes/java/main/controller/ServiceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/build/classes/java/main/model/repository/BaseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/build/classes/java/main/model/repository/BaseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/build/libs/furama-management-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/build/libs/furama-management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/bean/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/bean/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/bean/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/bean/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/BaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/DiscountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/DiscountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/impl/DiscountRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/impl/DiscountRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/impl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/service/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/service/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/service/impl/DiscountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/service/impl/DiscountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/java/model/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/webapp/view/product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/webapp/view/product/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module3/case_study/src/main/webapp/view/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module3/case_study/src/main/webapp/view/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_tong_quan_spring_mvc/thuc_hanh/tao_ung_dung_spring_greeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss1_tong_quan_spring_mvc/thuc_hanh/tao_ung_dung_spring_greeting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1_tong_quan_spring_mvc/thuc_hanh/ung_dung_quan_ly_khach_hang/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss1_tong_quan_spring_mvc/thuc_hanh/ung_dung_quan_ly_khach_hang/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/libs/product-management-thymeleaf-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/libs/product-management-thymeleaf-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/webapp/WEB-INF/product/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/webapp/WEB-INF/product/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/build/libs/customer-management-thymeleaf-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/build/libs/customer-management-thymeleaf-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/src/main/webapp/WEB-INF/customer/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4_view_thymeleaf/thuc_hanh/su_dung_thymeleaf_cho_ung_dung_quan_ly_du_lieu_khach_hang/src/main/webapp/WEB-INF/customer/layout.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="28mWSmJGURkp7o34fVDXdi70kG6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/orm-thymeleaf" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a21cd83-9dda-4356-aaf0-0fa7b8c2cb24" name="Default Changelist" comment="" />
+      <created>1651822243823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651822243823</updated>
+      <workItem from="1651822245391" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1651822263943">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1651822263943" />
+  </component>
+</project>
