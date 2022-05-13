@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List blog</title>
+</head>
+<body>
+<h1>List Book</h1>
+<!--<form th:action="@{/book/list}" method="get">-->
+<!--    <input type="text" name="nameBook" />-->
+<!--    <input type="submit" value="Search" />-->
+<!--</form>-->
+<div>
+    <a href="/blog/create">Create new blog</a>
+</div>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Content</th>
+        <th>Author</th>
+        <th>Type</th>
+        <th>Action</th>
+    </tr>
+    <tr th:each="b : ${blogs}">
+        <td th:text="${b.id}"></td>
+        <td th:text="${b.name}"></td>
+        <td th:text="${b.content}"></td>
+        <td th:text="${b.author}"></td>
+        <td th:if="${b.category != null}" th:text="${b.category.name}"></td>
+        <td>
+            <a th:href="@{/blog/view(id=${b.id})}">view</a>
+            <a th:href="@{/blog/edit(id=${b.id})}">edit</a>
+            <a th:href="@{/blog/delete/{id}(id=${b.id})}">delete</a>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

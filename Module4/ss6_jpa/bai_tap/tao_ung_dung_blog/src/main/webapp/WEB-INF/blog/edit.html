@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Blog Edit</h1>
+<form th:action="@{/blog/edit}" method="post" th:object="${blog}">
+    <input type="hidden" th:field="*{id}" >
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" th:field="*{name}">
+            </td>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>
+                <input type="text" th:field="*{content}">
+            </td>
+        </tr>
+        <tr>
+            <td>Author</td>
+            <td>
+                <input type="text" th:field="*{author}">
+            </td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td>
+                <!--                <select th:field="*{category}">-->
+                <!--                    <option th:value=""></option>-->
+                <!--                    <option th:each="c : ${categories}"-->
+                <!--                            th:value="${c.id}" th:text="${c.name}"-->
+                <!--                            th:selected="${c.id == blog.category.id}"></option>-->
+                <!--                </select>
+                --> <select th:field="*{category}">
+                <option th:each="item : ${categories}" th:text="${item.name}"
+                        th:value="${item.id}"></option>
+
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Edit"/>
+            </td>
+        </tr>
+    </table>
+</form>
+<a th:href="@{/blog}">Back to list</a>
+</body>
+</html>
