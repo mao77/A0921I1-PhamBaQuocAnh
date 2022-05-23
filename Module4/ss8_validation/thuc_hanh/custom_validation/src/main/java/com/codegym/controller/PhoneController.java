@@ -7,12 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import com.codegym.model.PhoneNumber;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.validation.Valid;
 
 @Controller
-@RequestMapping("/phone")
 public class PhoneController {
     @GetMapping("/")
     public String showForm(Model model){

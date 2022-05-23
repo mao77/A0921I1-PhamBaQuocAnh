@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+<form method="post" action="/search">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Author</label>
+        <input name="key_author" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Category</label>
+        <select name="key_category" id="exampleInputPassword1">
+            <option value="" selected>Choose Category</option>
+            <th:block th:each="item : ${categoryList}">
+                <option th:text="${item.name}" th:value="${item.name}"></option>
+            </th:block>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">Content</th>
+        <th scope="col">Author</th>
+        <th scope="col">Category</th>
+        <th scope="col">Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="item : ${blogs}">
+        <td scope="row" th:text="${item.id}"></td>
+        <td scope="row" th:text="${item.title}"></td>
+        <td scope="row" th:text="${item.content}"></td>
+        <td scope="row" th:text="${item.author}"></td>
+        <td scope="row" th:text="${item.category.name}"></td>
+        <td scope="row">
+            <a th:href="@{/view(id=${item.id})}">view</a>
+            <a th:href="@{/edit(id=${item.id})}">edit</a>
+            <a th:href="@{/delete/{id}(id=${item.id})}">delete</a>
+        </td>
+
+    </tr>
+    </tbody>
+</table>
+
+<a th:href="@{'/'(page=${blogs.number - 1})}" th:if="${blogs.hasPrevious()}">Previous</a>
+<span th:text="${blogs.number + 1}"></span>/<span th:text="${blogs.totalPages}"></span>
+<a th:href="@{'/'(page=${blogs.number + 1})}" th:if="${blogs.hasNext()}">Next</a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</html>
