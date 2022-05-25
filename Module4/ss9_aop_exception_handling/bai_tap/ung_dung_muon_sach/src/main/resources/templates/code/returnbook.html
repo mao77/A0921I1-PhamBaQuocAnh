@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout::head}"></head>
+<body>
+<nav th:replace="~{layout::nav-bar-book}"></nav>
+<div id="form-container" class="bg-white">
+    <form th:action="@{/returnCode}" method="post" th:object="${code}">
+        <input type="hidden" th:field="*{id}">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" th:field="*{book.title}" readonly="readonly">
+                <small th:errors="*{book.title}"></small>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="quantity">Quantity</label>
+                <input type="text" class="form-control" id="quantity" placeholder="Quantity" th:field="*{book.quantity}" readonly="readonly">
+                <small th:errors="*{book.quantity}"></small>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" id="author" placeholder="Author" th:field="*{book.author}" readonly="readonly">
+                <small th:errors="*{book.author}"></small>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="year">Year Composed</label>
+                <input type="text" class="form-control" id="year" placeholder="Year composed" th:field="*{book.year}" readonly="readonly">
+                <small th:errors="*{book.year}"></small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="code">Borrow code</label><br>
+<!--            <th:block th:object="${code}">-->
+                <input class="form-control" id="code" type="number" th:field="*{code}">
+<!--                <small th:errors="*{returnCode}"></small>-->
+<!--            </th:block>-->
+        </div>
+        <button type="submit" class="btn btn-primary" >Return</button>
+    </form>
+</div>
+</body>
+</html>

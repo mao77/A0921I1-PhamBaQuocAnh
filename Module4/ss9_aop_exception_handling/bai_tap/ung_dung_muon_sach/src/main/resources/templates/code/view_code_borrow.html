@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout::head}"></head>
+<body>
+<nav th:replace="~{layout::nav-bar-book}"></nav>
+<div id="table-container" class="bg-white">
+    <table class="table table-striped">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">CodeBorrow</th>
+            <th scope="col">Book</th>
+            <th scope="col">Status</th>
+            <th scope="col">Return</th>
+            <th scope="col">Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="codeBorrow : ${codeBorrowList}">
+            <th scope="row" th:text="${codeBorrow.id}"></th>
+            <td th:text="${codeBorrow.code}"></td>
+            <td th:text="${codeBorrow.book.title}"></td>
+            <td th:text="${codeBorrow.status.status}">
+
+                <!--            <td><a th:href="@{/borrow(id=${book.id})}"><i class="material-icons">read_more</i></a></td>-->
+            <td><a th:href="@{/returnCode(id=${codeBorrow.id})}"><i class="material-icons">replay</i></a></td>
+            <td><a th:href="@{/delete(id=${codeBorrow.book.id})}"><i class="material-icons">&#xE872;</i></a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

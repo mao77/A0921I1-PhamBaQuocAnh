@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layout::head}"></head>
+<body>
+<nav th:replace="~{layout::nav-bar-book}"></nav>
+<div id="form-container" class="bg-white">
+    <form th:action="@{/borrow}" method="post" th:object="${book}">
+        <input type="hidden" th:field="*{id}">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" th:field="*{title}" readonly="readonly">
+                <small th:errors="*{title}"></small>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="quantity">Quantity</label>
+                <input type="text" class="form-control" id="quantity" placeholder="Quantity" th:field="*{quantity}" readonly="readonly">
+                <small th:errors="*{quantity}"></small>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="author">Author</label>
+                <input type="text" class="form-control" id="author" placeholder="Author" th:field="*{author}" readonly="readonly">
+                <small th:errors="*{author}"></small>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="year">Year Composed</label>
+                <input type="text" class="form-control" id="year" placeholder="Year composed" th:field="*{year}" readonly="readonly">
+                <small th:errors="*{year}"></small>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="code">Borrow code</label><br>
+            <input class="form-control" id="code" type="text" name="usedCode" th:value="${availableCode.getCode()}" readonly="readonly">
+        </div>
+        <button type="submit" class="btn btn-primary" th:disabled="${book.quantity == 0}">Borrow</button>
+    </form>
+</div>
+</body>
+</html>

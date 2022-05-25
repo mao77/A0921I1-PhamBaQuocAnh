@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<th:block th:include="fragments/head"></th:block>
+
+<body>
+<!-- Page Wrapper -->
+<div id="wrapper">
+    <th:block th:include="fragments/sidebar"></th:block>
+    <!-- Main Panel -->
+    <div class="main-panel">
+        <th:block th:include="fragments/navbar"></th:block>
+        <!-- Begin Page Content -->
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 " >
+                        <table class="table table-striped">
+                            <thead class="thead-light">
+                            <tr style="color: gold">
+                                <th scope="col">ID</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Author</th>
+                                <th scope="col">Year</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Borrow</th>
+                                <th scope="col">Return</th>
+                                <th scope="col">Delete</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr th:each="book : ${bookList}">
+                                <th scope="row" th:text="${book.id}"></th>
+                                <td th:text="${book.title}"></td>
+                                <td th:text="${book.author}"></td>
+                                <td th:text="${book.year}">
+                                <td th:text="${book.quantity}">
+                                <td><a th:href="@{/borrow(id=${book.id})}" class="btn btn-primary">borrow</a></td>
+                                <td><a th:href="@{/return(id=${book.id})}" class="btn btn-success">return</a></td>
+                                <td><a th:href="@{/delete(id=${book.id})}" class="btn btn-danger">delete</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+
+        </div>
+        <th:block th:include="fragments/footer"></th:block>
+
+        <!-- /.content -->
+    </div>
+    <!-- End of Main Panel -->
+</div>
+
+<th:block th:include="fragments/scripts"></th:block>
+</body>
+</html>

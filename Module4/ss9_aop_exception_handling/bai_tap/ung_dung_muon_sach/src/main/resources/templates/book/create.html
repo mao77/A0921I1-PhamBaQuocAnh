@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<th:block th:include="fragments/head"></th:block>
+
+<body>
+<!-- Page Wrapper -->
+<div id="wrapper">
+    <th:block th:include="fragments/sidebar"></th:block>
+    <!-- Main Panel -->
+    <div class="main-panel">
+        <th:block th:include="fragments/navbar"></th:block>
+        <!-- Begin Page Content -->
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 " >
+                        <form th:action="@{/create}" method="post" th:object="${book}">
+                            <input type="hidden" th:field="*{id}">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="title" style="color: gold">Title</label>
+                                    <input type="text" class="form-control" id="title" placeholder="Title" th:field="*{title}">
+                                    <small th:errors="*{title}"></small>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="quantity" style="color: gold">Quantity</label>
+                                    <input type="number" class="form-control" id="quantity" placeholder="Quantity" th:field="*{quantity}">
+                                    <small th:errors="*{quantity}"></small>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="author" style="color: gold">Author</label>
+                                    <input type="text" class="form-control" id="author" placeholder="Author" th:field="*{author}">
+                                    <small th:errors="*{author}"></small>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="year" style="color: gold">Year Composed</label>
+                                    <input type="number" class="form-control" id="year" placeholder="Year composed" th:field="*{year}">
+                                    <small th:errors="*{year}"></small>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add book</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+
+        </div>
+        <th:block th:include="fragments/footer"></th:block>
+
+        <!-- /.content -->
+    </div>
+    <!-- End of Main Panel -->
+</div>
+
+<th:block th:include="fragments/scripts"></th:block>
+</body>
+</html>
