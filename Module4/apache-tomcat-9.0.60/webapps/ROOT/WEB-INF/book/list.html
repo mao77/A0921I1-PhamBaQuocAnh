@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List book</title>
+</head>
+<body>
+    <h1>List Book</h1>
+    <form th:action="@{/book/list}" method="get">
+        <input type="text" name="nameBook" />
+        <input type="submit" value="Search" />
+    </form>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Price</th>
+            <th>Author</th>
+            <th>Category</th>
+        </tr>
+        <tr th:each="b, iter: ${books}">
+            <td th:text="${b.bookId}"></td>
+            <td th:text="${b.name}"></td>
+            <td th:text="${b.price}"></td>
+            <td th:text="${b.author}"></td>
+            <td th:if="${b.category != null}" th:text="${b.category.categoryName}"></td>
+        </tr>
+    </table>
+</body>
+</html>

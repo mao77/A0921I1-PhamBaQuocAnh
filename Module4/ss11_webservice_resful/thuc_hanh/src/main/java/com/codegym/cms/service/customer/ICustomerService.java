@@ -1,6 +1,6 @@
-package com.codegym.cms.service;
+package com.codegym.cms.service.customer;
 
 import com.codegym.cms.model.Customer;
 
-public interface ICustomerService extends IGeneralService<Customer>{
+public interface ICustomerService extends IGeneralService<Customer> {
 }

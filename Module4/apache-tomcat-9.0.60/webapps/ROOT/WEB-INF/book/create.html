@@ -1,0 +1,39 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Create student</title>
+</head>
+<body>
+<h1>Create Book</h1>
+<form action="/book/create" method="post" th:object="${book}" cssClass="">
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td><input th:field="*{name}" /></td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td><input th:field="*{price}" /></td>
+        </tr>
+        <tr>
+            <td>Author</td>
+            <td><input th:field="*{author}" /></td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td>
+                <select th:field="*{category}">
+                    <option value=""></option>
+                    <option th:each="c : ${categories}"
+                            th:value="${c.categoryId}" th:text="${c.categoryName}"
+                            th:selected="${c.categoryId == book.category.categoryId}"></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="Reset"></td>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

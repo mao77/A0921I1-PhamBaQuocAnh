@@ -20,23 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afae910a-9805-4ea3-b2ea-34a3bba06c2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/src/main/java/codegym/vn/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/src/main/java/codegym/vn/config/AppInitiallizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/src/main/java/codegym/vn/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/src/main/java/codegym/vn/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/src/main/java/codegym/vn/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/thuc_hanh/ung_dung_xem_gio_hien_tai_cua_cac_thanh_pho_su_dung_gradle/src/main/java/com/codegym/vn/controller/TimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/thuc_hanh/ung_dung_xem_gio_hien_tai_cua_cac_thanh_pho_su_dung_gradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/thuc_hanh/ung_dung_xem_gio_hien_tai_cua_cac_thanh_pho_su_dung_gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/thuc_hanh/ung_dung_xem_gio_hien_tai_cua_cac_thanh_pho_su_dung_gradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/webapp/WEB-INF/product/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module2/src/caseStudeyModule2/out/production/CaseStudeyModule2/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module2/src/caseStudeyModule2/out/production/CaseStudeyModule2/view/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module2/src/caseStudeyModule2/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module2/src/caseStudeyModule2/src/view/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module3/apache-tomcat-9.0.60/BUILDING.txt" beforeDir="false" />
@@ -732,17 +716,27 @@
       <change beforePath="$PROJECT_DIR$/../../../../Module3/case_study/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module3/case_study/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module3/case_study/src/main/webapp/view/product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module3/case_study/src/main/webapp/view/product/create.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Module3/case_study/src/main/webapp/view/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module3/case_study/src/main/webapp/view/product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/may_tinh_ca_nhan/src/main/java/codegym/vn/config/AppInitiallizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/may_tinh_ca_nhan/src/main/java/codegym/vn/config/AppInitiallizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/may_tinh_ca_nhan/src/main/java/codegym/vn/controller/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/may_tinh_ca_nhan/src/main/java/codegym/vn/controller/CalculatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/may_tinh_ca_nhan/src/main/java/codegym/vn/service/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/may_tinh_ca_nhan/src/main/java/codegym/vn/service/CalculatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/may_tinh_ca_nhan/src/main/java/codegym/vn/service/CalculatorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/may_tinh_ca_nhan/src/main/java/codegym/vn/service/CalculatorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/java/codegym/vn/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/java/codegym/vn/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/java/codegym/vn/config/AppInitiallizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/java/codegym/vn/config/AppInitiallizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/java/codegym/vn/controller/SandwichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/java/codegym/vn/controller/SandwichController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/webapp/WEB-INF/sandwich/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/webapp/WEB-INF/sandwich/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/webapp/WEB-INF/sandwich/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/src/main/webapp/WEB-INF/sandwich/order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../ung_dung_quan_ly_khach_hang/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/bai_tap/ung_dung_hien_thi_gia_vi_voi_sandwich/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/repository/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/repository/ProductRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/classes/java/main/codegym/vn/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/libs/product-management-thymeleaf-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/build/libs/product-management-thymeleaf-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/repository/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_view_thymeleaf/bai_tap/su_dung_thymeleaf_cho_ung_dung_quan_ly_san_pham/src/main/java/codegym/vn/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -780,7 +774,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bai_tap/ung_dung_tu_dien_don_gian" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -878,6 +872,7 @@
       <workItem from="1650956934743" duration="131000" />
       <workItem from="1651033107825" duration="734000" />
       <workItem from="1651043681047" duration="68000" />
+      <workItem from="1651570285306" duration="499000" />
     </task>
     <servers />
   </component>
@@ -905,10 +900,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1650930832356" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1651043743119">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1651570723181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1651043743119" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1651570723181" />
     <state width="893" height="220" key="GridCell.Tab.0.bottom" timestamp="1650931479162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

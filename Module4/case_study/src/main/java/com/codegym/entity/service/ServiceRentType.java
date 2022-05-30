@@ -5,17 +5,17 @@ import javax.validation.constraints.NotBlank;
 import java.util.List;
 
 @Entity
-public class RentType {
+public class ServiceRentType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
     String name;
 
-    @OneToMany(mappedBy = "rentType")
+    @OneToMany(mappedBy = "serviceRentType")
     private List<Service> serviceList;
 
-    public RentType() {
+    public ServiceRentType() {
     }
 
     public int getId() {

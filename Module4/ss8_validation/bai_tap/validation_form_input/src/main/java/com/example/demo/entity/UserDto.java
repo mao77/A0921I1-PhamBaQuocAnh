@@ -1,6 +1,5 @@
 package com.example.demo.entity;
-import org.springframework.data.jpa.repository.Query;
-
+import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
@@ -27,8 +26,9 @@ public class UserDto{
     private String age;
 
     @NotBlank(message = "k dc de khoang trang")
-    @Pattern(regexp = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
-                        message = "email khong dung dinh dang")
+    @Email
+//    @Pattern(regexp = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+//                        message = "email khong dung dinh dang")
     private String email;
 
     public UserDto() {

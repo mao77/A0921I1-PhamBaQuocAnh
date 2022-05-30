@@ -1,8 +1,6 @@
 package com.codegym.entity.service;
 
 import javax.persistence.*;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
 
 
 @Entity
@@ -11,21 +9,22 @@ public class Service {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
-    @NotBlank
+
     String name;
-
-    @NotBlank
     double area;
-
-    @NotBlank
     double cost;
-
-    @NotBlank
-    @Min(1)
     int max_people;
+    private String standardRoom;
+    private String descriptionOtherConvenience;
+    private double poolArea;
+    private int numberOfFloors;
+    private String freeServiceIncluded;
 
-    @ManyToOne(targetEntity = RentType.class)
-    private RentType rentType;
+    @ManyToOne(targetEntity = ServiceRentType.class)
+    private ServiceRentType serviceRentType;
+
+    @ManyToOne(targetEntity = ServiceType.class)
+    private ServiceType serviceType;
 
     public Service() {
     }
@@ -70,11 +69,59 @@ public class Service {
         this.max_people = max_people;
     }
 
-    public RentType getRentType() {
-        return rentType;
+    public ServiceRentType getServiceRentType() {
+        return serviceRentType;
     }
 
-    public void setRentType(RentType rentType) {
-        this.rentType = rentType;
+    public void setServiceType(ServiceRentType serviceRentType) {
+        this.serviceRentType = serviceRentType;
+    }
+
+    public String getStandardRoom() {
+        return standardRoom;
+    }
+
+    public void setStandardRoom(String standardRoom) {
+        this.standardRoom = standardRoom;
+    }
+
+    public String getDescriptionOtherConvenience() {
+        return descriptionOtherConvenience;
+    }
+
+    public void setDescriptionOtherConvenience(String descriptionOtherConvenience) {
+        this.descriptionOtherConvenience = descriptionOtherConvenience;
+    }
+
+    public double getPoolArea() {
+        return poolArea;
+    }
+
+    public void setPoolArea(double poolArea) {
+        this.poolArea = poolArea;
+    }
+
+    public int getNumberOfFloors() {
+        return numberOfFloors;
+    }
+
+    public void setNumberOfFloors(int numberOfFloors) {
+        this.numberOfFloors = numberOfFloors;
+    }
+
+    public String getFreeServiceIncluded() {
+        return freeServiceIncluded;
+    }
+
+    public void setFreeServiceIncluded(String freeServiceIncluded) {
+        this.freeServiceIncluded = freeServiceIncluded;
+    }
+
+    public ServiceType getServiceType() {
+        return serviceType;
+    }
+
+    public void setServiceRentType(ServiceRentType serviceRentType) {
+        this.serviceRentType = serviceRentType;
     }
 }

@@ -1,4 +1,7 @@
-package com.codegym.repository.customer;
+package com.codegym.repository;
 
-public interface GenderRepository {
+import com.codegym.entity.Gender;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GenderRepository extends JpaRepository<Gender,Integer> {
 }
