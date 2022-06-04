@@ -97,10 +97,11 @@ public class CustomerController {
     public String searchCustomer(Model model,
                                  @RequestParam String searchName,
                                  @RequestParam int searchGender,
+                                 @RequestParam int searchCustomerType,
                                  @PageableDefault(size = 2) Pageable pageable) {
-        Page<Customer> customerList = customerService.findCustomersByNameContainingAndGender_Id(
-                                                                searchName,searchGender,pageable);
-        model.addAttribute("customerList",customerList);
+        Page<Customer> customerList = customerService.findCustomersByCustomerType_IdAndGenderIdAndNameContaining(
+                searchCustomerType, searchGender, searchName, pageable);
+        model.addAttribute("customerList", customerList);
         return "/customer/list";
     }
 }

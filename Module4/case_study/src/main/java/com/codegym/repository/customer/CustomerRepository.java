@@ -8,5 +8,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 
 public interface CustomerRepository extends JpaRepository<Customer,Integer> {
-    Page<Customer> findCustomersByNameContainingAndGender_Id(String searchName, int id, Pageable pageable);
+    Page<Customer> findCustomersByCustomerType_IdAndGenderIdAndNameContaining(int typeId,
+                                int genderId, String name, Pageable pageable);
 }

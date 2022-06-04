@@ -1,12 +1,14 @@
 package com.codegym.entity.customer;
 
 import com.codegym.entity.Gender;
+import com.codegym.entity.contract.Contract;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 public class Customer {
@@ -27,7 +29,18 @@ public class Customer {
     @ManyToOne(targetEntity = Gender.class)
     protected Gender gender;
 
+    @OneToMany(mappedBy = "customer")
+    private List<Contract> contractList;
+
     public Customer() {
+    }
+
+    public List<Contract> getContractList() {
+        return contractList;
+    }
+
+    public void setContractList(List<Contract> contractList) {
+        this.contractList = contractList;
     }
 
     public int getId() {
@@ -112,4 +125,5 @@ public class Customer {
     public void setGender(Gender gender) {
         this.gender = gender;
     }
+
 }

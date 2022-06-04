@@ -1,6 +1,9 @@
 package com.codegym.entity.service;
 
+import com.codegym.entity.contract.Contract;
+
 import javax.persistence.*;
+import java.util.List;
 
 
 @Entity
@@ -26,7 +29,18 @@ public class Service {
     @ManyToOne(targetEntity = ServiceType.class)
     private ServiceType serviceType;
 
+    @OneToMany(mappedBy = "service")
+    private List<Contract> contractList;
+
     public Service() {
+    }
+
+    public List<Contract> getContractList() {
+        return contractList;
+    }
+
+    public void setContractList(List<Contract> contractList) {
+        this.contractList = contractList;
     }
 
     public int getId() {
@@ -69,14 +83,6 @@ public class Service {
         this.max_people = max_people;
     }
 
-    public ServiceRentType getServiceRentType() {
-        return serviceRentType;
-    }
-
-    public void setServiceType(ServiceRentType serviceRentType) {
-        this.serviceRentType = serviceRentType;
-    }
-
     public String getStandardRoom() {
         return standardRoom;
     }
@@ -117,11 +123,19 @@ public class Service {
         this.freeServiceIncluded = freeServiceIncluded;
     }
 
-    public ServiceType getServiceType() {
-        return serviceType;
+    public ServiceRentType getServiceRentType() {
+        return serviceRentType;
     }
 
     public void setServiceRentType(ServiceRentType serviceRentType) {
         this.serviceRentType = serviceRentType;
+    }
+
+    public ServiceType getServiceType() {
+        return serviceType;
+    }
+
+    public void setServiceType(ServiceType serviceType) {
+        this.serviceType = serviceType;
     }
 }

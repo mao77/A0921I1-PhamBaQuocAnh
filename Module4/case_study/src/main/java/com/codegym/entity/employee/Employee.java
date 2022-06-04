@@ -1,6 +1,10 @@
 package com.codegym.entity.employee;
 
+import com.codegym.entity.Gender;
+import com.codegym.entity.contract.Contract;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Employee {
@@ -15,6 +19,9 @@ public class Employee {
     String email;
     double salary;
 
+    @ManyToOne(targetEntity = Gender.class)
+    private Gender gender;
+
     @ManyToOne(targetEntity = EmployeeEducationDegree.class)
     private EmployeeEducationDegree employeeEducationDegree;
 
@@ -23,6 +30,9 @@ public class Employee {
 
     @ManyToOne(targetEntity = EmployeeDivision.class)
     private EmployeeDivision employeeDivision;
+
+    @OneToMany(mappedBy = "employee" )
+    private List<Contract> contractList;
 
     public Employee() {
     }
@@ -105,5 +115,13 @@ public class Employee {
 
     public void setEmployeeDivision(EmployeeDivision employeeDivision) {
         this.employeeDivision = employeeDivision;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 }

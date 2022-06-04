@@ -15,9 +15,6 @@ public class ServiceRentType {
     @OneToMany(mappedBy = "serviceRentType")
     private List<Service> serviceList;
 
-    public ServiceRentType() {
-    }
-
     public int getId() {
         return id;
     }

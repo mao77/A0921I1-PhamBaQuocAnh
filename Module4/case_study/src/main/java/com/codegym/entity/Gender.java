@@ -1,6 +1,7 @@
 package com.codegym.entity;
 
 import com.codegym.entity.customer.Customer;
+import com.codegym.entity.employee.Employee;
 
 import javax.persistence.*;
 import java.util.List;
@@ -15,6 +16,17 @@ public class Gender {
 
     @OneToMany(mappedBy = "gender")
     List<Customer> customerList;
+
+    @OneToMany(mappedBy = "gender")
+    List<Employee> employeeList;
+
+    public List<Employee> getEmployeeList() {
+        return employeeList;
+    }
+
+    public void setEmployeeList(List<Employee> employeeList) {
+        this.employeeList = employeeList;
+    }
 
     public Gender() {
     }

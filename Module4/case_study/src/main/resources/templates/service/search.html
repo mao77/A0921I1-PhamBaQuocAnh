@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</head>
+<body>
+<center>
+    <h1>SEARCH CUSTOMER</h1>
+    <form class="form-inline my-2 my-lg-0" th:action="@{/service/search}" method="post">
+        <table style="margin-left: 40%;margin-top: 20px">
+            <tr>
+                <th>
+                    <label >Name</label>
+                </th>
+                <td>
+                    <input th:name="searchId" class="form-control mr-sm-2" type="search" placeholder=" Input Search Id" aria-label="Search">
+                </td>
+            </tr>
+<!--            <tr>-->
+<!--                <th>-->
+<!--                    <label >Service Rent Type</label>-->
+<!--                </th>-->
+<!--                <td>-->
+<!--                    <select class="custom-select" id="validationCustom04" th:name="serviceRentType">-->
+<!--                        <option selected  value="">Choose Gender</option>-->
+<!--                        <option th:each="item : ${serviceRentTypeList}"-->
+<!--                                th:value="${item}" th:text="${item.name}"></option>-->
+<!--                    </select>-->
+<!--                </td>-->
+<!--            </tr>-->
+            <tr>
+                <th>
+                    <label>Service Type</label>
+                </th>
+                <td>
+                    <select class="custom-select" id="validationCustom05" th:name="customer">
+                        <option selected  value="">Choose Customer Type</option>
+                        <option th:each="item : ${customerList}"
+                                th:value="${item.id}" th:text="${item.name}"></option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+                    >Search</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>

@@ -5,6 +5,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import java.util.List;
+import java.util.Map;
 
 public interface CustomerService {
     Page<Customer> listAllCustomer(Pageable pageable);
@@ -12,5 +13,7 @@ public interface CustomerService {
     Customer getCustomerById(int id);
     void editCustomer(Customer customer);
     void deleteCustomerById(int id);
-    Page<Customer> findCustomersByNameContainingAndGender_Id(String searchName, int id, Pageable pageable);
+    Page<Customer> findCustomersByCustomerType_IdAndGenderIdAndNameContaining(int typeId,
+                              int genderId, String name, Pageable pageable);
+
 }

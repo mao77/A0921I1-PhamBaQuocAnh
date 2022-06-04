@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <style>
+        table {
+            width: 30%;
+        }
+
+    </style>
 </head>
 <body>
 <div>
@@ -53,18 +60,6 @@
                         <!--                    <a class="dropdown-item" href="#">Something else here</a>-->
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-expanded="false">
-                        CONTRACT
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/contract">LIST</a>
-                        <a class="dropdown-item" href="/contract/search">SEARCH</a>
-                        <a class="dropdown-item" href="/contract/create">CREATE</a>
-                        <!--                    <div class="dropdown-divider"></div>-->
-                        <!--                    <a class="dropdown-item" href="#">Something else here</a>-->
-                    </div>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
@@ -86,5 +81,73 @@
         </div>
     </nav>
 </div>
+
+<!-- On rows -->
+<center>
+    <h1>EMPLOYEE DETAIL</h1>
+    <table th:object="${employee}">
+        <tr class="table-dark" >
+            <td>ID</td>
+            <td th:text="*{id}"></td>
+        </tr>
+        <tr class="table-light">
+            <td>Name</td>
+            <td th:text="*{name}"></td>
+        </tr>
+        <tr class="table-danger">
+            <td>Gender</td>
+            <td th:text="*{gender.name}"></td>
+        </tr>
+        <tr class="table-success">
+            <td>Employee Position</td>
+            <td th:text="*{employeePosition.name}"></td>
+        </tr>
+        <tr class="table-warning">
+            <td>Employee Division</td>
+            <td th:text="*{employeeDivision.name}"></td>
+        </tr>
+        <tr class="table-light">
+            <td>Employee Education Degree</td>
+            <td th:text="*{employeeEducationDegree.name}"></td>
+        </tr>
+        <tr class="table-primary">
+            <td>Birth Day</td>
+            <td th:text="*{birthDay}"></td>
+        </tr>
+        <tr class="table-danger">
+            <td>Id Card</td>
+            <td th:text="*{idCard}"></td>
+        </tr>
+        <tr class="table-success">
+            <td>Phone Number</td>
+            <td th:text="*{phoneNumber}"></td>
+        </tr>
+        <tr class="table-warning">
+            <td>Email</td>
+            <td th:text="*{email}"></td>
+        </tr>
+        <tr class="table-secondary">
+            <td>Salary</td>
+            <td th:text="*{salary}"></td>
+        </tr>
+    </table>
+</center>
+<!--<tr class="table-warning">...</tr>-->
+<!--<tr class="table-info">...</tr>-->
+<!--<tr class="table-light">...</tr>-->
+<!--<tr class="table-dark">...</tr>-->
+
+<!-- On cells (`td` or `th`) -->
+<!--<tr>-->
+<!--    <td class="table-active">...</td>-->
+<!--    <td class="table-primary">...</td>-->
+<!--    <td class="table-secondary">...</td>-->
+<!--    <td class="table-success">...</td>-->
+<!--    <td class="table-danger">...</td>-->
+<!--    <td class="table-warning">...</td>-->
+<!--    <td class="table-info">...</td>-->
+<!--    <td class="table-light">...</td>-->
+<!--    <td class="table-dark">...</td>-->
+<!--</tr>-->
 </body>
 </html>
